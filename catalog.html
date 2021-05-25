@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header class="headerblack">
+        <div class="myexcontainer">
+            <div class="headerblack__content">
+                <a href="index.html" class="hb__logo">
+                    <img src="img/logo-black.svg" alt="logo">
+                </a>
+                <nav class="hb__menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">SPECIALS</a></li>
+                        <li class="active"><a href="catalog.html">Used Cars</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="#">APPLICATIONS</a></li>
+                        <li><a href="#">AUCTION</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </nav>
+                <div class="hb__lang">
+                    <ul>
+                        <li class="active"><a href="#">ENG</a></li>
+                        <li><a href="#">RU</a></li>
+                    </ul>
+                </div>
+                <a href="tel:9998887766" class="hb__tel">999 888 77 66</a>
+                <div class="hb__sign">
+                    <ul>
+                        <li><a href="login.html">Log in</a></li>
+                        <li><a href="#">Registration</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="header__contentwrapp">
+                <div class="header__leftbox">
+                    <a href="index.html" class="logo">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="searchadaptive">
+                    <button class="respsearchicon"></button>
+                </div>
+                <div class="burgericon"></div>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <div class="mobile-menu_head">
+                <span>Menu</span>
+                <button class="closemenu"></button>
+            </div>
+            <div class="mobile-menu_body">
+                <ul class="mobmenulist">
+                    <li><a href="login.html">Log in</a></li>
+                    <li><a href="#">Registration</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SPECIALS</a></li>
+                    <li><a href="catalog.html">Used Cars</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="#">APPLICATIONS</a></li>
+                    <li><a href="#">AUCTION</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+                <div class="moblanglist">
+                    <ul>
+                        <li class="active"><a href="#">ENG</a></li>
+                        <li><a href="#">RU</a></li>
+                    </ul>
+                </div>
+                <div class="mobbtns">
+                    <a href="catalog.html" class="redbtn">Used Cars</a>
+                    <a href="#" class="transparrbtn">Sell Your Car</a>
+                    <a class="mobbtns__tel" href="tel:9998887766">999 888 77 66</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="myexcontainer">
+            <div class="breacrumbs">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li>Used cars</li>
+                </ul>
+            </div>
+        </div>
+        <section class="cattopfilter">
+            <div class="myexcontainer">
+                <div class="row">
+                    <div class="col-xl-3 d-flex align-items-center">
+                        <p class="filttitl">Filter</p>
+                    </div>
+                    <div class="col-xl-9">
+                        <div class="filtwrap">
+                            <div class="cattopfilter__search">
+                                <div class="searchbox">
+                                    <input type="text" placeholder="Start searching">
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="filtbox">
+                                <div class="showitems">
+                                    <p> Show items on page</p>
+                                    <select name="" id="">
+                                        <option value="0">5</option>
+                                        <option value="1">10</option>
+                                        <option value="2">15</option>
+                                        <option value="3">20</option>
+                                        <option value="4">50</option>
+                                    </select>
+                                </div>
+                                <div class="sortby">
+                                    <select name="" id="">
+                                        <option value="0">Popylarity</option>
+                                        <option value="1">Lorem Ips</option>
+                                        <option value="2">Lorem Ips</option>
+                                    </select>
+                                </div>
+                                <div class="columnorrow">
+                                    <button class="torow">
+                                        <img src="img/icons/col-icon.svg" alt="img">
+                                    </button>
+                                    <button class="tocol active">
+                                        <img src="img/icons/col-icon2.svg" alt="img">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="catcontent">
+            <div class="myexcontainer">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <aside class="leftcatfilter">
+                            <p class="title">Price</p>
+                            <div class="leftcatfilter-block">
+                                <div id="slider-range"></div>
+
+                                <div class=" slider-labels">
+                                    <div class=" caption">
+                                        <span id="slider-range-value1"></span>
+                                    </div>
+                                    <div class="caption">
+                                        <span id="slider-range-value2"></span>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="">
+                                        <form>
+                                            <input type="hidden" name="min-value" value="">
+                                            <input type="hidden" name="max-value" value="">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="leftcatfilter-block">
+                                <p class="title">Car Brand</p>
+                                <div class="selectimitation">
+                                    <div class="selectimitation__selitem">
+                                        <span>All brands</span>
+                                        <span class="selectimitation__arrow">
+                                            <svg width="14" height="7" viewBox="0 0 14 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M-3.0598e-07 0L7 7L14 -6.11959e-07L-3.0598e-07 0Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="selectimitation__sellist">
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="allbarands" class="allcheck">
+                                            <label for="allbarands">All brands</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="brand1">
+                                            <label for="brand1">Acura</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="brand2">
+                                            <label for="brand2">Audi</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="brand3">
+                                            <label for="brand3">BMW</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="brand4">
+                                            <label for="brand4">BRP</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="brand5">
+                                            <label for="brand5">Chevrolet</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="brand6">
+                                            <label for="brand6">Dodge</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="brand7">
+                                            <label for="brand7">Ford</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="brand8">
+                                            <label for="brand8">GMC</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="brand9">
+                                            <label for="brand9">Honda</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="brand10">
+                                            <label for="brand10">Jeep</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="brand11">
+                                            <label for="brand11">Kia</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="brand12">
+                                            <label for="brand12">Lexus</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="brand13">
+                                            <label for="brand13">Acura</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="choseditems">
+                                    <div class="choseditem clearall">
+                                        <span></span>
+                                        Clear all
+                                    </div>
+                                    <div class="choseditem">
+                                        <span></span>
+                                        Audi
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="leftcatfilter-block">
+                                <p class="title">Car Type</p>
+                                <div class="selectimitation">
+                                    <div class="selectimitation__selitem">
+                                        <span>All Type</span>
+                                        <span class="selectimitation__arrow">
+                                            <svg width="14" height="7" viewBox="0 0 14 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M-3.0598e-07 0L7 7L14 -6.11959e-07L-3.0598e-07 0Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="selectimitation__sellist">
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="alltypes" class="allcheck">
+                                            <label for="alltypes">All brands</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="type1">
+                                            <label for="type1">Type 1</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="type2">
+                                            <label for="type2">Type 2</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="leftcatfilter-block">
+                                <p class="title">Car Models</p>
+                                <div class="selectimitation">
+                                    <div class="selectimitation__selitem">
+                                        <span>All Models</span>
+                                        <span class="selectimitation__arrow">
+                                            <svg width="14" height="7" viewBox="0 0 14 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M-3.0598e-07 0L7 7L14 -6.11959e-07L-3.0598e-07 0Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="selectimitation__sellist">
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="allmodels" class="allcheck">
+                                            <label for="allmodels">All brands</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="model1">
+                                            <label for="model1">Model 1</label>
+                                        </div>
+                                        <div class="selectimitation__checkrow">
+                                            <input type="checkbox" id="model2">
+                                            <label for="model2">Model 2</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="leftcatfilter-block">
+                                <p class="title">Year</p>
+                                <div class="leftcatfilter__years">
+                                    <div class="leftcatfilter__year">
+                                        <select name="" id="" data-placeholder="from">
+                                            <option value="0"></option>
+                                            <option value="1">1991</option>
+                                            <option value="2">2000</option>
+                                        </select>
+                                    </div>
+                                    <div class="leftcatfilter__year">
+                                        <select name="" id="" data-placeholder="to">
+                                            <option value="0"></option>
+                                            <option value="1">2018</option>
+                                            <option value="2">2021</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="col-xl-9">
+                        <div class="catalogwrapper">
+                            <div class="catalogrow">
+                                <div class="catalogrow__body">
+                                    <div class="catalogrow__img">
+                                        <img src="img/carcat1.jpg" alt="car">
+                                    </div>
+                                    <div class="catalogrow__info">
+                                        <p class="date">03.30.2021</p>
+                                        <p class="title">2016 Audi Q3 OFFICIAL EXCLUSIVE </p>
+                                        <p class="article">1G1ND52F85M143229</p>
+                                        <div class="infobuttons">
+                                            <span>216,292 ml</span>
+                                            <span>4 Cyl</span>
+                                            <span>Auto</span>
+                                        </div>
+                                        <div class="infobotttext">
+                                            <p>Location <span>CA-PITTSBURG</span></p>
+                                            <p>Engine <span>2.0</span></p>
+                                            <p>Color <span><span class="color" style="background: #828282;"></span>
+                                                    Gray</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="catalogrow__action">
+                                        <div class="linksbox">
+                                            <a href="#">CARFAX</a>
+                                            <a href="#">Report</a>
+                                        </div>
+                                        <p class="price">$ 20 000</p>
+                                        <a href="#" class="redbtn">Learn more</a>
+                                    </div>
+                                </div>
+                                <div class="catalogrow__footer">
+                                    <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
+                                    <p>
+                                        <span class="text">44</span>
+                                        Score
+                                    </p>
+                                    <p>
+                                        <span class="text">21-35</span>
+                                        Similar Vehicles
+                                    </p>
+                                    <p>
+                                        <span class="text">3</span>
+                                        Owners
+                                    </p>
+                                    <p>
+                                        <span class="text">0</span>
+                                        Accidents
+                                    </p>
+                                    <p>
+                                        <span class="img green"></span>
+                                        Titles/Probs
+                                    </p>
+                                    <p>
+                                        <span class="img green"></span>
+                                        Odo
+                                    </p>
+                                    <p>
+                                        <span class="img yellow"></span>
+                                        Use/Event
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="catalogrow">
+                                <div class="catalogrow__body">
+                                    <div class="catalogrow__img">
+                                        <img src="img/carcat2.jpg" alt="car">
+                                    </div>
+                                    <div class="catalogrow__info">
+                                        <p class="date">03.30.2021</p>
+                                        <p class="title">2018 VOLKSWAGEN JETTA</p>
+                                        <p class="article">1G1ND52F85M143229</p>
+                                        <div class="infobuttons">
+                                            <span>216,292 ml</span>
+                                            <span>4 Cyl</span>
+                                            <span>Auto</span>
+                                        </div>
+                                        <div class="infobotttext">
+                                            <p>Location <span>CA-PITTSBURG</span></p>
+                                            <p>Engine <span>2.0</span></p>
+                                            <p>Color <span><span class="color" style="background: #828282;"></span>
+                                                    Gray</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="catalogrow__action">
+                                        <div class="linksbox">
+                                            <a href="#">CARFAX</a>
+                                            <a href="#">Report</a>
+                                        </div>
+                                        <p class="price">$ 17950</p>
+                                        <a href="#" class="redbtn">Learn more</a>
+                                    </div>
+                                </div>
+                                <div class="catalogrow__footer">
+                                    <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
+                                    <p>
+                                        <span class="text">44</span>
+                                        Score
+                                    </p>
+                                    <p>
+                                        <span class="text">21-35</span>
+                                        Similar Vehicles
+                                    </p>
+                                    <p>
+                                        <span class="text">3</span>
+                                        Owners
+                                    </p>
+                                    <p>
+                                        <span class="text">0</span>
+                                        Accidents
+                                    </p>
+                                    <p>
+                                        <span class="img green"></span>
+                                        Titles/Probs
+                                    </p>
+                                    <p>
+                                        <span class="img green"></span>
+                                        Odo
+                                    </p>
+                                    <p>
+                                        <span class="img yellow"></span>
+                                        Use/Event
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="catalogrow">
+                                <div class="catalogrow__body">
+                                    <div class="catalogrow__img">
+                                        <img src="img/carcat3.jpg" alt="car">
+                                    </div>
+                                    <div class="catalogrow__info">
+                                        <p class="date">03.30.2021</p>
+                                        <p class="title">2016 Audi Q3 OFFICIAL EXCLUSIVE </p>
+                                        <p class="article">1G1ND52F85M143229</p>
+                                        <div class="infobuttons">
+                                            <span>216,292 ml</span>
+                                            <span>4 Cyl</span>
+                                            <span>Auto</span>
+                                        </div>
+                                        <div class="infobotttext">
+                                            <p>Location <span>CA-PITTSBURG</span></p>
+                                            <p>Engine <span>2.0</span></p>
+                                            <p>Color <span><span class="color" style="background: #000;"></span>
+                                                    Black</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="catalogrow__action">
+                                        <div class="linksbox">
+                                            <a href="#">CARFAX</a>
+                                            <a href="#">Report</a>
+                                        </div>
+                                        <p class="price">$ 20 000</p>
+                                        <a href="#" class="redbtn">Learn more</a>
+                                    </div>
+                                </div>
+                                <div class="catalogrow__footer">
+                                    <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
+                                    <p>
+                                        <span class="text">44</span>
+                                        Score
+                                    </p>
+                                    <p>
+                                        <span class="text">21-35</span>
+                                        Similar Vehicles
+                                    </p>
+                                    <p>
+                                        <span class="text">3</span>
+                                        Owners
+                                    </p>
+                                    <p>
+                                        <span class="text">0</span>
+                                        Accidents
+                                    </p>
+                                    <p>
+                                        <span class="img green"></span>
+                                        Titles/Probs
+                                    </p>
+                                    <p>
+                                        <span class="img green"></span>
+                                        Odo
+                                    </p>
+                                    <p>
+                                        <span class="img yellow"></span>
+                                        Use/Event
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="catalogrow">
+                                <div class="catalogrow__body">
+                                    <div class="catalogrow__img">
+                                        <img src="img/carcat4.jpg" alt="car">
+                                    </div>
+                                    <div class="catalogrow__info">
+                                        <p class="date">03.30.2021</p>
+                                        <p class="title">2017 VOLKSWAGEN JETTA</p>
+                                        <p class="article">1G1ND52F85M143229</p>
+                                        <div class="infobuttons">
+                                            <span>216,292 ml</span>
+                                            <span>4 Cyl</span>
+                                            <span>Auto</span>
+                                        </div>
+                                        <div class="infobotttext">
+                                            <p>Location <span>CA-PITTSBURG</span></p>
+                                            <p>Engine <span>2.0</span></p>
+                                            <p>Color <span><span class="color" style="background: #828282;"></span>
+                                                    Gray</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="catalogrow__action">
+                                        <div class="linksbox">
+                                            <a href="#">CARFAX</a>
+                                            <a href="#">Report</a>
+                                        </div>
+                                        <p class="price">$ 8 800</p>
+                                        <a href="#" class="redbtn">Learn more</a>
+                                    </div>
+                                </div>
+                                <div class="catalogrow__footer">
+                                    <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
+                                    <p>
+                                        <span class="text">44</span>
+                                        Score
+                                    </p>
+                                    <p>
+                                        <span class="text">21-35</span>
+                                        Similar Vehicles
+                                    </p>
+                                    <p>
+                                        <span class="text">3</span>
+                                        Owners
+                                    </p>
+                                    <p>
+                                        <span class="text">0</span>
+                                        Accidents
+                                    </p>
+                                    <p>
+                                        <span class="img green"></span>
+                                        Titles/Probs
+                                    </p>
+                                    <p>
+                                        <span class="img green"></span>
+                                        Odo
+                                    </p>
+                                    <p>
+                                        <span class="img yellow"></span>
+                                        Use/Event
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="catalogrow">
+                                <div class="catalogrow__body">
+                                    <div class="catalogrow__img">
+                                        <img src="img/carcat5.jpg" alt="car">
+                                    </div>
+                                    <div class="catalogrow__info">
+                                        <p class="date">03.30.2021</p>
+                                        <p class="title">2014 Audi Q5</p>
+                                        <p class="article">1G1ND52F85M143229</p>
+                                        <div class="infobuttons">
+                                            <span>216,292 ml</span>
+                                            <span>4 Cyl</span>
+                                            <span>Auto</span>
+                                        </div>
+                                        <div class="infobotttext">
+                                            <p>Location <span>CA-PITTSBURG</span></p>
+                                            <p>Engine <span>2.0</span></p>
+                                            <p>Color <span><span class="color" style="background: #124588;"></span> Dark
+                                                    Blue</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="catalogrow__action">
+                                        <div class="linksbox">
+                                            <a href="#">CARFAX</a>
+                                            <a href="#">Report</a>
+                                        </div>
+                                        <p class="price">$ 22 000</p>
+                                        <a href="#" class="redbtn">Learn more</a>
+                                    </div>
+                                </div>
+                                <div class="catalogrow__footer">
+                                    <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
+                                    <p>
+                                        <span class="text">44</span>
+                                        Score
+                                    </p>
+                                    <p>
+                                        <span class="text">21-35</span>
+                                        Similar Vehicles
+                                    </p>
+                                    <p>
+                                        <span class="text">3</span>
+                                        Owners
+                                    </p>
+                                    <p>
+                                        <span class="text">0</span>
+                                        Accidents
+                                    </p>
+                                    <p>
+                                        <span class="img green"></span>
+                                        Titles/Probs
+                                    </p>
+                                    <p>
+                                        <span class="img green"></span>
+                                        Odo
+                                    </p>
+                                    <p>
+                                        <span class="img yellow"></span>
+                                        Use/Event
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="pagination-wrapper">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M17.5 4.50006L16 3.00006L7 12.0001L16 21.0001L17.5 19.5001L10 12.0001L17.5 4.50006Z"
+                                                fill="black" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><span>...</span></li>
+                                <li class="page-item"><a class="page-link" href="#">35</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6.5 19.4999L8 20.9999L17 11.9999L8 2.99991L6.5 4.49991L14 11.9999L6.5 19.4999Z"
+                                                fill="black" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="black-footer">
+        <div class="myexcontainer">
+            <div class="bf__flexwrapper">
+                <div class="bf__logo">
+                    <a href="index.html"><img src="img/logo-footer.svg" alt="logo"></a>
+                </div>
+                <div class="bf__navlist">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="#">APPLICATIONS</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="bf__navlist">
+                    <ul>
+                        <li><a href="#">SPECIALS</a></li>
+                        <li><a href="#">AUCTION</a></li>
+                        <li><a href="catalog.html">Used cars</a></li>
+                        <li><a href="#">Sell Your Car</a></li>
+                    </ul>
+                </div>
+                <div class="bf__infolist">
+                    <p class="title">Our contact</p>
+                    <ul>
+                        <li>
+                            4523 Coney Island Ave, Brooklyn,
+                            NY 11235 United States
+                        </li>
+                        <li><a href="#">carbonauto@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="bf__infolist">
+                    <p class="title">Have a question?</p>
+                    <ul>
+                        <li>
+                            Сall from 9 am to 8 pm, we will help you
+                        </li>
+                        <li><a href="#">999 888 77 66</a></li>
+                    </ul>
+                </div>
+                <div class="bf__lang">
+                    <ul>
+                        <li class="active"><a href="#">ENG</a></li>
+                        <li><a href="#">RU</a></li>
+                    </ul>
+                    <div class="foottotop">
+                        <img src="img/icons/toparrow.svg" alt="to top">
+                    </div>
+                </div>
+            </div>
+            <div class="bf__rightreserved">
+                <p>© СARBONAUTO 2021. ALL RIGHT RESERVED</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/range-slider.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

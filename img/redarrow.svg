@@ -1,0 +1,30 @@
+<svg width="49" height="24" viewBox="0 0 49 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<!-- <style type="text/css">
+
+    .animate-arrow.arr {
+        stroke: rgb(194, 226, 241);
+    }
+
+    .animate-arrow {
+        fill: rgb(255, 255, 255);
+        fill: transparent;
+        stroke-dasharray: 500;
+        stroke-dashoffset: 500;
+        animation: dash 6s linear infinite;
+    }
+    .animate-arrow.arr {
+        stroke-dasharray: 500;
+        stroke-dashoffset: 500;
+        animation: dash 6s infinite;
+    }
+
+    @keyframes dash {
+        to {
+            stroke-dashoffset: 0;
+            }
+        }
+            </style> -->
+
+    <path class="animate-arrow" d="M48.7071 12.7071C49.0976 12.3166 49.0976 11.6834 48.7071 11.2929L42.3431 4.92893C41.9526 4.53841 41.3195 4.53841 40.9289 4.92893C40.5384 5.31946 40.5384 5.95262 40.9289 6.34315L46.5858 12L40.9289 17.6569C40.5384 18.0474 40.5384 18.6805 40.9289 19.0711C41.3195 19.4616 41.9526 19.4616 42.3431 19.0711L48.7071 12.7071ZM0 13H48V11H0V13Z" fill="#EC0F16"/>
+</svg>

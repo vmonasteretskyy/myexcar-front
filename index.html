@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="myexcontainer">
+            <div class="header__contentwrapp">
+                <div class="header__leftbox">
+                    <a href="index.html" class="logo">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header__rightbox">
+                    <div class="header__rightbox-toprow">
+                        <nav class="header_nav">
+                            <ul>
+                                <li class="active"><a href="index.html">HOME</a></li>
+                                <li><a href="#">ABOUT US</a></li>
+                                <li><a href="#">SPECIALS</a></li>
+                                <li><a href="catalog.html">Used Cars</a></li>
+                                <li><a href="services.html">SERVICES</a></li>
+                                <li><a href="#">APPLICATIONS</a></li>
+                                <li><a href="#">AUCTION</a></li>
+                                <li><a href="#">CONTACT US</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__signsect">
+                            <div class="header__language">
+                                <ul>
+                                    <li class="active"><a href="#">ENG</a></li>
+                                    <li><a href="#">RU</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__sign">
+                                <ul>
+                                    <li><a href="login.html">Log in</a></li>
+                                    <li><a href="#">Registration</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__rightbox-bottrow">
+                        <div class="header__searchbox">
+                            <form action="">
+                                <div class="header__serchinputfield">
+                                    <input type="text" placeholder="Start searching">
+                                    <button type="submit"></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="header__callbox">
+                            <a href="tel:9998887766" class="phonelink">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21 16.42V19.956C21.0001 20.2092 20.9042 20.453 20.7316 20.6382C20.559 20.8234 20.3226 20.9363 20.07 20.954C19.633 20.984 19.276 21 19 21C10.163 21 3 13.837 3 5C3 4.724 3.015 4.367 3.046 3.93C3.06372 3.67744 3.17658 3.44101 3.3618 3.26841C3.54703 3.09581 3.79082 2.99989 4.044 3H7.58C7.70404 2.99987 7.8237 3.04586 7.91573 3.12902C8.00776 3.21218 8.0656 3.32658 8.078 3.45C8.101 3.68 8.122 3.863 8.142 4.002C8.34073 5.38892 8.748 6.73783 9.35 8.003C9.445 8.203 9.383 8.442 9.203 8.57L7.045 10.112C8.36445 13.1865 10.8145 15.6365 13.889 16.956L15.429 14.802C15.4919 14.714 15.5838 14.6509 15.6885 14.6237C15.7932 14.5964 15.9042 14.6068 16.002 14.653C17.267 15.2539 18.6156 15.6601 20.002 15.858C20.141 15.878 20.324 15.9 20.552 15.922C20.6752 15.9346 20.7894 15.9926 20.8724 16.0846C20.9553 16.1766 21.0012 16.2961 21.001 16.42H21Z"
+                                        fill="black" />
+                                </svg>
+
+                                999 888 77 66
+                            </a>
+                            <a href="catalog.html" class="redbtn">Used Cars</a>
+                            <a href="#" class="transparrbtn">Sell Your Car</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="searchadaptive">
+                    <button class="respsearchicon"></button>
+                </div>
+                <div class="burgericon"></div>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <div class="mobile-menu_head">
+                <span>Menu</span>
+                <button class="closemenu"></button>
+            </div>
+            <div class="mobile-menu_body">
+                <ul class="mobmenulist">
+                    <li><a href="login.html">Log in</a></li>
+                    <li><a href="#">Registration</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SPECIALS</a></li>
+                    <li><a href="catalog.html">Used Cars</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="#">APPLICATIONS</a></li>
+                    <li><a href="#">AUCTION</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+                <div class="moblanglist">
+                    <ul>
+                        <li class="active"><a href="#">ENG</a></li>
+                        <li><a href="#">RU</a></li>
+                    </ul>
+                </div>
+                <div class="mobbtns">
+                    <a href="catalog.html" class="redbtn">Used Cars</a>
+                    <a href="#" class="transparrbtn">Sell Your Car</a>
+                    <a class="mobbtns__tel" href="tel:9998887766">999 888 77 66</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="mainparallaxsect">
+            <div class="myexcontainer">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="mainparallaxsect__content">
+                            <p class="sectsubtitle">we offer </p>
+                            <h1>reliable<br> and favorable conditions</h1>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="mainparallaxsect__parallax">
+                            <div id="scene">
+                                <div data-depth="0.1">
+                                    <img src="img/parallaxpic2.png" alt="img">
+                                </div>
+                                <div data-depth="-0.1">
+                                    <img src="img/parallaxpic1.png" alt="img">
+                                </div>
+                            </div>
+                            <img src="img/cars.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="servicesdark">
+            <div class="myexcontainer">
+                <div class="row no-gutters servicesdark__slider">
+                    <div class="servicesdark__col">
+                        <a href="#">
+                            <div class="servicesdark__box">
+                                <img src="img/servicepic1.jpg" alt="Buy">
+                                <div class="servicesdark__boxcontent">
+                                    <img src="img/icons/service-icon1.svg" alt="icon">
+                                    <p class="title">Buy</p>
+                                    <p class="descr">
+                                        The best and largest choice of the secondary market of tested cars
+                                    </p>
+                                </div>
+                                <span class="servicesdark__link">See more</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="servicesdark__col">
+                        <a href="#">
+                            <div class="servicesdark__box">
+                                <img src="img/servicepic2.jpg" alt="Buy">
+                                <div class="servicesdark__boxcontent">
+                                    <img src="img/icons/service-icon2.svg" alt="icon">
+                                    <p class="title">Sell</p>
+                                    <p class="descr">
+                                        Create ads for the sale of your car easily and quickly
+                                    </p>
+                                </div>
+                                <span class="servicesdark__link">See more</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="servicesdark__col">
+                        <a href="#">
+                            <div class="servicesdark__box">
+                                <img src="img/servicepic3.jpg" alt="Buy">
+                                <div class="servicesdark__boxcontent">
+                                    <img src="img/icons/service-icon3.svg" alt="icon">
+                                    <p class="title">Leasing</p>
+                                    <p class="descr">
+                                        Drive the vehicles you want for less money and less hassle.
+                                    </p>
+                                </div>
+                                <span class="servicesdark__link">See more</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="servicesdark__col">
+                        <a href="#">
+                            <div class="servicesdark__box">
+                                <img src="img/servicepic4.jpg" alt="Buy">
+                                <div class="servicesdark__boxcontent">
+                                    <img src="img/icons/service-icon4.svg" alt="icon">
+                                    <p class="title">Auction</p>
+                                    <p class="descr">
+                                        Сar options at auction under the budget and the wishes of the customer. With us
+                                        you always have a choice.
+                                    </p>
+                                </div>
+                                <span class="servicesdark__link">See more</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="servicesdark__col">
+                        <a href="#">
+                            <div class="servicesdark__box">
+                                <img src="img/servicepic5.jpg" alt="Buy">
+                                <div class="servicesdark__boxcontent">
+                                    <img src="img/icons/service-icon5.svg" alt="icon">
+                                    <p class="title">E-bikes / Scooters</p>
+                                    <p class="descr">
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                        aliquip.
+                                    </p>
+                                </div>
+                                <span class="servicesdark__link">See more</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="howitworks">
+            <div class="myexcontainer">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4">
+                        <div class="howitworks__descrsect">
+                            <p class="section-title underlinered">how it works</p>
+                            <p class="section-boldtext">
+                                In order to become a car owner, you need to perform the following 8 steps:
+                            </p>
+                            <div class="descr">
+                                <p>View all the steps in the services section</p>
+                            </div>
+                            <a href="#">Go to the Services Page</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="howitworks__box">
+                                    <div class="hiwnum">
+                                        <span>01</span>
+                                        <img src="img/icons/hiwicon1.svg" alt="img">
+                                    </div>
+                                    <div class="hiwdescr">
+                                        <p>Read the list of lots on Carbon Auto</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="howitworks__box">
+                                    <div class="hiwnum">
+                                        <span>02</span>
+                                        <img src="img/icons/hiwicon2.svg" alt="img">
+                                    </div>
+                                    <div class="hiwdescr">
+                                        <p>Choose what interests you in the auction section</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="howitworks__box">
+                                    <div class="hiwnum">
+                                        <span>03</span>
+                                        <img src="img/icons/hiwicon3.svg" alt="img">
+                                    </div>
+                                    <div class="hiwdescr">
+                                        <p>Get acquainted with the terms of sale</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="howitworks__box">
+                                    <div class="hiwnum">
+                                        <span>04</span>
+                                        <img src="img/icons/hiwicon4.svg" alt="img">
+                                    </div>
+                                    <div class="hiwdescr">
+                                        <p>Register on the
+                                            Carbon Auto website</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="usedcars">
+            <div class="myexcontainer">
+                <p class="section-title">used cars</p>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a href="#">
+                            <div class="usedcarscard">
+                                <div class="usedcarscard__img">
+                                    <img src="img/car1.png" alt="img">
+                                </div>
+                                <div class="usedcarscard__info">
+                                    <p class="title">2017 SUBARU OUTBACK</p>
+                                    <p class="descr">216.929 ml, 2.5 petrol, SUV, varіator</p>
+                                    <p class="price">$19,000</p>
+                                    <div class="arrowanimation">
+                                        <span class="redpoint"></span>
+                                        <img src="img/redarrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="#">
+                            <div class="usedcarscard">
+                                <div class="usedcarscard__img">
+                                    <img src="img/car2.png" alt="img">
+                                </div>
+                                <div class="usedcarscard__info">
+                                    <p class="title">2017 BMW X5 XDRIVE</p>
+                                    <p class="descr">216.929 ml, 3.0 diesel, SUV, automatic</p>
+                                    <p class="price">$50,000</p>
+                                    <div class="arrowanimation">
+                                        <span class="redpoint"></span>
+                                        <img src="img/redarrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="#">
+                            <div class="usedcarscard">
+                                <div class="usedcarscard__img">
+                                    <img src="img/car3.png" alt="img">
+                                </div>
+                                <div class="usedcarscard__info">
+                                    <p class="title">2017 SUBARU OUTBACK</p>
+                                    <p class="descr">216.929 ml, 2.5 petrol, SUV, varіator</p>
+                                    <p class="price">$19,000</p>
+                                    <div class="arrowanimation">
+                                        <span class="redpoint"></span>
+                                        <img src="img/redarrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#">
+                            <div class="usedcarscard">
+                                <div class="usedcarscard__img">
+                                    <img src="img/car4.png" alt="img">
+                                </div>
+                                <div class="usedcarscard__info">
+                                    <p class="title">2014 JEEP CHEROKEE</p>
+                                    <p class="descr">216.929 ml, 2.4 petrol, SUV, automatic</p>
+                                    <p class="price">$13,900</p>
+                                    <div class="arrowanimation">
+                                        <span class="redpoint"></span>
+                                        <img src="img/redarrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#">
+                            <div class="usedcarscard">
+                                <div class="usedcarscard__img">
+                                    <img src="img/car5.png" alt="img">
+                                </div>
+                                <div class="usedcarscard__info">
+                                    <p class="title">2016 FORD ESCAPE SE</p>
+                                    <p class="descr">216.929 ml, 1.5 petrol, SUV, automatic</p>
+                                    <p class="price">$19,000</p>
+                                    <div class="arrowanimation">
+                                        <span class="redpoint"></span>
+                                        <img src="img/redarrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#">
+                            <div class="usedcarscard">
+                                <div class="usedcarscard__img">
+                                    <img src="img/car6.png" alt="img">
+                                </div>
+                                <div class="usedcarscard__info">
+                                    <p class="title">2015 MERCEDES-BENZ S550</p>
+                                    <p class="descr">216.929 ml, 4.7 petrol, coupe, automatic</p>
+                                    <p class="price">$99,000</p>
+                                    <div class="arrowanimation">
+                                        <span class="redpoint"></span>
+                                        <img src="img/redarrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#">
+                            <div class="usedcarscard">
+                                <div class="usedcarscard__img">
+                                    <img src="img/car7.png" alt="img">
+                                </div>
+                                <div class="usedcarscard__info">
+                                    <p class="title">2019 HYUNDAI KONA</p>
+                                    <p class="descr">216.929 ml, 2.0 petrol, SUV, automatic</p>
+                                    <p class="price">$20,500</p>
+                                    <div class="arrowanimation">
+                                        <span class="redpoint"></span>
+                                        <img src="img/redarrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <div class="showmorecars">
+                            <a href="#" class="redbtn">See More Used Cars</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="myexcontainer">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8">
+                        <p class="section-title">faq</p>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left accordeon-title minus"
+                                            type="button" data-toggle="collapse" data-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <span>01</span> Vivamus porttitor nunc at enim elementum varius.
+                                            <svg class="plussvg" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect y="10" width="23" height="3" fill="#EC0F16" />
+                                                <rect x="13" width="23" height="3" transform="rotate(90 13 0)"
+                                                    fill="#EC0F16" />
+                                            </svg>
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Nulla gravida sem urna, non gravida est maximus vel. Proin id scelerisque
+                                            massa,
+                                            eget posuere tellus. Nam gravida turpis non vulputate tempus. Mauris
+                                            molestie
+                                            pharetra turpis sit amet efficitur. Vestibulum quis scelerisque odio. Nam
+                                            sed
+                                            lectus maximus, semper enim eget, tristique neque. Proin fermentum bibendum
+                                            auctor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left accordeon-title" type="button"
+                                            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                                            aria-controls="collapseTwo">
+                                            <span>02</span> Nullam accumsan non est id tempus.
+                                            <svg class="plussvg" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect y="10" width="23" height="3" fill="#EC0F16" />
+                                                <rect x="13" width="23" height="3" transform="rotate(90 13 0)"
+                                                    fill="#EC0F16" />
+                                            </svg>
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Nulla gravida sem urna, non gravida est maximus vel. Proin id scelerisque
+                                            massa,
+                                            eget posuere tellus. Nam gravida turpis non vulputate tempus. Mauris
+                                            molestie
+                                            pharetra turpis sit amet efficitur. Vestibulum quis scelerisque odio. Nam
+                                            sed
+                                            lectus maximus, semper enim eget, tristique neque. Proin fermentum bibendum
+                                            auctor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left accordeon-title" type="button"
+                                            data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
+                                            aria-controls="collapseThree">
+                                            <span>03</span> Vestibulum ante ipsum primis in faucibus orci luctus et
+                                            ultrices posuere cubilia curae.
+                                            <svg class="plussvg" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect y="10" width="23" height="3" fill="#EC0F16" />
+                                                <rect x="13" width="23" height="3" transform="rotate(90 13 0)"
+                                                    fill="#EC0F16" />
+                                            </svg>
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Nulla gravida sem urna, non gravida est maximus vel. Proin id scelerisque
+                                            massa,
+                                            eget posuere tellus. Nam gravida turpis non vulputate tempus. Mauris
+                                            molestie
+                                            pharetra turpis sit amet efficitur. Vestibulum quis scelerisque odio. Nam
+                                            sed
+                                            lectus maximus, semper enim eget, tristique neque. Proin fermentum bibendum
+                                            auctor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left accordeon-title" type="button"
+                                            data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+                                            aria-controls="collapseFour">
+                                            <span>04</span> Duis at ex est. In sollicitudin id justo vel aliquam. Morbi
+                                            dictum velit magna, in malesuada.
+                                            <svg class="plussvg" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect y="10" width="23" height="3" fill="#EC0F16" />
+                                                <rect x="13" width="23" height="3" transform="rotate(90 13 0)"
+                                                    fill="#EC0F16" />
+                                            </svg>
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Nulla gravida sem urna, non gravida est maximus vel. Proin id scelerisque
+                                            massa,
+                                            eget posuere tellus. Nam gravida turpis non vulputate tempus. Mauris
+                                            molestie
+                                            pharetra turpis sit amet efficitur. Vestibulum quis scelerisque odio. Nam
+                                            sed
+                                            lectus maximus, semper enim eget, tristique neque. Proin fermentum bibendum
+                                            auctor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left accordeon-title" type="button"
+                                            data-toggle="collapse" data-target="#collapseFive" aria-expanded="true"
+                                            aria-controls="collapseFive">
+                                            <span>05</span> Cras malesuada sem nec tortor ultricies mattis.
+                                            <svg class="plussvg" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect y="10" width="23" height="3" fill="#EC0F16" />
+                                                <rect x="13" width="23" height="3" transform="rotate(90 13 0)"
+                                                    fill="#EC0F16" />
+                                            </svg>
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Nulla gravida sem urna, non gravida est maximus vel. Proin id scelerisque
+                                            massa,
+                                            eget posuere tellus. Nam gravida turpis non vulputate tempus. Mauris
+                                            molestie
+                                            pharetra turpis sit amet efficitur. Vestibulum quis scelerisque odio. Nam
+                                            sed
+                                            lectus maximus, semper enim eget, tristique neque. Proin fermentum bibendum
+                                            auctor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contactsfoot">
+            <div class="myexcontainer">
+                <div class="contactsfoot__bgpic">
+                    <div class="totop">To Top
+                        <span>
+                            <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.4999 10.5L17.9999 9L8.99988 -3.93403e-07L-0.000122464 9L1.49988 10.5L8.99988 3L16.4999 10.5Z"
+                                    fill="#0A0909" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-5">
+                            <div class="contactsfoot__leftsect">
+                                <p class="title">our contact</p>
+                                <a href="tel:9998887766" class="phone">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M27.5 20.63V25.934C27.5002 26.3138 27.3563 26.6795 27.0974 26.9573C26.8385 27.2351 26.4838 27.4044 26.105 27.431C25.4495 27.476 24.914 27.5 24.5 27.5C11.2445 27.5 0.5 16.7555 0.5 3.5C0.5 3.086 0.5225 2.5505 0.569 1.895C0.595584 1.51617 0.764872 1.16152 1.04271 0.902613C1.32054 0.64371 1.68623 0.499828 2.066 0.5H7.37C7.55606 0.499812 7.73554 0.568789 7.87359 0.693531C8.01164 0.818273 8.09839 0.989874 8.117 1.175C8.1515 1.52 8.183 1.7945 8.213 2.003C8.5111 4.08338 9.122 6.10675 10.025 8.0045C10.1675 8.3045 10.0745 8.663 9.8045 8.855L6.5675 11.168C8.54668 15.7797 12.2218 19.4548 16.8335 21.434L19.1435 18.203C19.2379 18.071 19.3757 17.9763 19.5327 17.9355C19.6898 17.8946 19.8562 17.9102 20.003 17.9795C21.9005 18.8808 23.9234 19.4902 26.003 19.787C26.2115 19.817 26.486 19.85 26.828 19.883C27.0129 19.902 27.1841 19.9889 27.3085 20.1269C27.433 20.2649 27.5017 20.4442 27.5015 20.63H27.5Z"
+                                            fill="white" />
+                                    </svg>
+                                    999 888 77 66
+                                </a>
+                                <ul>
+                                    <li>
+                                        4523 Coney Island Ave, Brooklyn,
+                                        NY 11235 United States
+                                    </li>
+                                    <li><a href="mailto:carbonauto@gmail.com">carbonauto@gmail.com</a></li>
+                                </ul>
+                                <img class="blackfig" src="img/footfigure1.png" alt="img">
+                                <img class="redfig" src="img/footfigure2.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7">
+                            <div class="contactsfoot__rightsect">
+                                <p class="title">
+                                    leave your contacts in the
+                                    fields below. <span>we will call you back</span>
+                                </p>
+                                <form action="">
+                                    <div class="fields">
+                                        <input type="text" placeholder="First Name">
+                                        <input type="tel" placeholder="Phone number">
+                                    </div>
+                                    <div class="btnsect">
+                                        <input type="submit" value="Send">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="rightres">© СARBONAUTO 2021. ALL RIGHT RESERVED</span>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="myexcontainer">
+            <div class="row no-gutters justify-content-between">
+                <nav class="footer__nav">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">SPECIALS</a></li>
+                        <li><a href="#">USED CARS</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">APPLICATIONS</a></li>
+                        <li><a href="#">AUCTION</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </nav>
+                <div class="header__signsect">
+                    <div class="header__language">
+                        <ul>
+                            <li class="active"><a href="#">ENG</a></li>
+                            <li><a href="#">RU</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__sign">
+                        <ul>
+                            <li><a href="#">Log in</a></li>
+                            <li><a href="#">Registration</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

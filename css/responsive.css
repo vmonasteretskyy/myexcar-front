@@ -1,0 +1,1807 @@
+@media(max-width:1850.8px) {
+    .hb__menu ul li {
+        margin-right: 35px;
+    }
+
+    .hb__tel {
+        padding-left: 35px;
+    }
+}
+
+@media(max-width:1750.8px) {
+    .hb__menu ul li {
+        margin-right: 25px;
+    }
+
+    .hb__tel {
+        padding-left: 35px;
+    }
+
+    .catalogrow__info .infobotttext p {
+        margin-right: 30px;
+    }
+
+    .cattopfilter .cattopfilter__search {
+        max-width: 40%;
+        flex: 0 0 40%;
+    }
+
+    .cattopfilter .filtbox {
+        max-width: 60%;
+        flex: 0 0 60%;
+    }
+
+}
+
+@media(max-width:1700.8px) {
+
+    .hb__menu ul li a,
+    .hb__sign ul li a,
+    .hb__lang ul li a,
+    .hb__tel {
+        font-size: 13px;
+    }
+
+    .hb__logo {
+        max-width: 130px;
+    }
+
+    .hb__logo img {
+        max-width: 100%;
+    }
+
+    .hb__menu ul li {
+        margin-right: 17px;
+    }
+
+    .cattopfilter .filtbox .sortby .jq-selectbox {
+        width: 180px;
+    }
+
+    .cattopfilter .cattopfilter__search {
+        max-width: 35%;
+        flex: 0 0 35%;
+    }
+
+    .cattopfilter .filtbox {
+        max-width: 65%;
+        flex: 0 0 65%;
+        justify-content: flex-end;
+    }
+
+    .cattopfilter .filtbox .showitems,
+    .cattopfilter .filtbox .sortby {
+        margin-right: 5px;
+    }
+
+}
+
+@media(max-width:1600.8px) {
+    .header__leftbox {
+        max-width: 120px;
+    }
+
+    .header__rightbox {
+        max-width: calc(100% - 120px);
+    }
+
+    .phonelink svg {
+        margin-right: 18px;
+        position: absolute;
+        left: 0;
+        top: -2px;
+    }
+
+    .phonelink {
+        padding-left: 30px;
+    }
+
+    .header_nav li:not(:last-child),
+    .header__language li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .header__signsect {
+        max-width: 270px;
+    }
+
+    .header__rightbox-toprow {
+        height: 50px;
+    }
+
+    .header ul li {
+        height: 50px;
+    }
+
+    .header__rightbox-toprow {
+        margin-bottom: 25px;
+    }
+
+    .header__serchinputfield button {
+        width: 20px;
+        height: 20px;
+        background-size: 100%;
+        right: 10px;
+    }
+
+    .header__serchinputfield input {
+        padding-left: 10px;
+        height: 44px;
+        font-size: 14px;
+    }
+
+    .redbtn {
+        font-size: 14px;
+        width: 180px;
+        height: 44px;
+    }
+
+    .transparrbtn {
+        font-size: 14px;
+        width: 180px;
+        height: 44px;
+    }
+
+    .phonelink {
+        margin-right: 40px;
+    }
+
+    .header__searchbox {
+        max-width: 370px;
+    }
+
+    .sectsubtitle:after {
+        bottom: -15px;
+    }
+
+    h1 {
+        font-size: 44px;
+        line-height: 60px;
+    }
+
+    .sectsubtitle {
+        margin-bottom: 80px;
+    }
+
+    .mainparallaxsect__parallax #scene {
+        height: 600px;
+    }
+
+    .mainparallaxsect__parallax #scene div:nth-child(2) {
+        bottom: 60px;
+        text-align: right;
+    }
+
+    .mainparallaxsect__parallax #scene div:nth-child(2) img {
+        max-width: 93%;
+    }
+
+    .mainparallaxsect__parallax #scene div:first-child {
+        right: 46% !important;
+        top: 85px !important;
+    }
+
+    .servicesdark__boxcontent img {
+        width: 36px;
+    }
+
+    .servicesdark__boxcontent .title {
+        font-size: 18px;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+
+    .servicesdark__box {
+        padding: 30px;
+    }
+
+    .servicesdark__link {
+        width: 110px;
+        height: 32px;
+    }
+
+    .howitworks {
+        padding: 80px 0 60px;
+    }
+
+    .howitworks__box .hiwnum span {
+        font-size: 42px;
+        line-height: normal;
+    }
+
+    .howitworks__box .hiwnum {
+        width: 90px;
+        height: 75px;
+    }
+
+    .howitworks__box .hiwdescr {
+        width: calc(100% - 90px);
+        padding-left: 20px;
+    }
+
+    .section-title {
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 40px;
+    }
+
+    .section-title.underlinered:after {
+        bottom: -15px;
+    }
+
+    .howitworks .section-title {
+        margin-bottom: 65px;
+    }
+
+    .howitworks .section-boldtext {
+        margin-bottom: 20px;
+        font-size: 16px;
+        max-width: calc(100% - 30px);
+        line-height: 26px;
+    }
+
+    .howitworks .descr {
+        max-width: calc(100% - 30px);
+    }
+
+    .howitworks__box {
+        height: 140px;
+    }
+
+    .arrowanimation {
+        width: 30px;
+        height: 18px;
+    }
+
+    .usedcarscard:hover .arrowanimation img {
+        width: 100%;
+    }
+
+    .arrowanimation .redpoint {
+        width: 4px;
+        height: 4px;
+    }
+
+    .usedcarscard__info {
+        padding-right: 55px;
+    }
+
+    .faq {
+        padding: 40px 0 80px;
+    }
+
+    .faq .section-title {
+        margin-bottom: 50px;
+    }
+
+    .accordeon-title {
+        padding: 28px 55px 28px 0;
+    }
+
+    .accordeon-title svg {
+        width: 18px;
+    }
+
+    .contactsfoot__leftsect .title {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 60px;
+    }
+
+    .contactsfoot__leftsect .phone {
+        font-size: 26px;
+        padding-left: 38px;
+        line-height: normal;
+        margin-bottom: 25px;
+    }
+
+    .contactsfoot__leftsect .phone svg {
+        width: 22px;
+    }
+
+    .contactsfoot__leftsect ul li {
+        margin-bottom: 25px;
+    }
+
+    .contactsfoot__leftsect ul li a {
+        margin-bottom: 0;
+    }
+
+    .contactsfoot__rightsect .title {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .contactsfoot__rightsect .fields input,
+    .contactsfoot__rightsect .fields input::placeholder {
+        font-size: 14px;
+    }
+
+    .contactsfoot__rightsect .fields input {
+        height: 44px;
+        margin-bottom: 24px;
+    }
+
+    .contactsfoot__rightsect .btnsect input {
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .contactsfoot__rightsect {
+        padding: 60px 0;
+    }
+
+    .contactsfoot__bgpic {
+        height: 316px;
+    }
+
+    .blackfig {
+        height: 420px;
+    }
+
+    .redfig {
+        height: 375px;
+    }
+
+    .contactsfoot {
+        padding: 80px 0 55px;
+    }
+
+    .redfig {
+        top: -80px;
+        left: 18%;
+    }
+
+    .contactsfoot__leftsect {
+        padding-top: 20px;
+    }
+
+    .footer__nav ul li a {
+        font-size: 13px;
+    }
+
+    .footer ul li {
+        margin-right: 20px;
+    }
+
+    .header__language li:first-child:after {
+        right: -10px;
+    }
+
+    .totop {
+        top: -78px;
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
+
+    .header__signsect {
+        max-width: 300px;
+    }
+
+    .header_nav {
+        max-width: 720px;
+    }
+
+    .header_nav:after {
+        width: calc(100% - 720px - 355px);
+        right: 325px;
+    }
+
+    .footer__nav {
+        max-width: 720px;
+    }
+
+    .footer__nav:after {
+        width: calc(100% - 720px - 355px);
+        right: 325px;
+        bottom: 8px;
+    }
+
+    .howitworks__box {
+        background-size: auto 100%;
+    }
+
+    .services__title {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    .services__listsect ol>li {
+        margin-bottom: 25px;
+    }
+
+    .gotoaction p {
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    .servbottbox {
+        height: 90px;
+    }
+
+    .servbottbox p {
+        font-size: 14px;
+    }
+
+    .bf__logo {
+        max-width: 120px;
+    }
+
+    .bf__logo img {
+        max-width: 100%;
+    }
+
+    .bf__navlist ul li {
+        margin-bottom: 15px;
+        line-height: normal;
+    }
+
+    .bf__infolist {
+        max-width: 250px;
+    }
+
+    .bf__infolist .title:after {
+        bottom: -10px;
+    }
+
+    .bf__infolist .title {
+        margin-bottom: 30px;
+    }
+
+    .foottotop {
+        width: 42px;
+        height: 42px;
+    }
+
+    .foottotop img {
+        width: 20px;
+    }
+
+    .signform .inpfield input {
+        height: 42px;
+    }
+
+    .signform {
+        max-width: 380px;
+    }
+
+    .signform .inpfield, .signform .checkfield {
+        margin-bottom: 20px;
+    }
+
+    .signform .redbtn {
+        height: 44px;
+        margin-bottom: 15px;
+    }
+
+    .cattopfilter {
+        padding: 20px 0 10px;
+    }
+
+    .cattopfilter .searchbox input,
+    .cattopfilter .filtbox .jq-selectbox__select,
+    .columnorrow,
+    .caption>span,
+    .selectimitation__selitem,
+    .leftcatfilter__year .jq-selectbox__select {
+        height: 42px;
+    }
+
+    .columnorrow {
+        width: 84px;
+    }
+
+    .caption>span {
+        padding-left: 10px;
+    }
+
+    .leftcatfilter-block:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    .leftcatfilter .title {
+        margin-bottom: 15px;
+    }
+
+    .choseditems {
+        margin-top: 15px;
+    }
+
+    .catalogrow__img {
+        max-width: 230px;
+        flex: 0 0 230px;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+    .signform .subtitle {
+        margin-bottom: 20px;
+    }
+
+    .header_nav a,
+    .header__sign a,
+    .header__language a,
+    .phonelink {
+        font-size: 13px;
+    }
+
+    .usedcarscard__info .descr,
+    .bf__navlist ul li a,
+    .bf__infolist .title,
+    .bf__infolist ul li,
+    .bf__lang ul li a {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .sectsubtitle {
+        font-size: 16px;
+    }
+
+    .accordeon-title {
+        font-size: 18px;
+    }
+
+    .signform .title,
+    .cattopfilter .filttitl {
+        font-size: 22px;
+    }
+
+    .signform .title {
+        line-height: normal;
+    }
+
+}
+
+@media(max-width:1440.8px) {
+
+    .hb__menu ul li a,
+    .hb__sign ul li a,
+    .hb__lang ul li a,
+    .hb__tel {
+        font-size: 12px;
+    }
+
+    .hb__menu ul li {
+        margin-right: 15px;
+    }
+
+    .hb__tel:before {
+        width: 20px;
+        height: 20px;
+    }
+
+    .hb__tel {
+        padding-left: 25px;
+    }
+
+    .hb__lang ul li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .hb__lang ul li:not(:last-child):after {
+        right: -11px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+@media(max-width:1400.8px) {
+    .myexcontainer {
+        padding: 0 60px;
+    }
+
+    .header__leftbox {
+        max-width: 100px;
+    }
+
+    .header__rightbox {
+        max-width: calc(100% - 100px);
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+
+    .header_nav:after {
+        display: none;
+    }
+
+    .header__signsect {
+        max-width: 250px;
+    }
+
+    .header_nav li:not(:last-child),
+    .header__language li:not(:last-child) {
+        margin-right: 17px;
+    }
+
+    .header__callbox .redbtn {
+        margin-right: 15px;
+    }
+
+    .phonelink {
+        margin-right: 20px;
+    }
+
+    .header .transparrbtn,
+    .header__callbox .redbtn {
+        width: 160px;
+    }
+
+    .header__searchbox {
+        max-width: 300px;
+    }
+
+    .header_nav {
+        max-width: calc(100% - 250px);
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .mainparallaxsect__parallax #scene div:nth-child(2) img {
+        max-width: 83%;
+    }
+
+    .mainparallaxsect__parallax #scene div:nth-child(2) {
+        bottom: 80px;
+    }
+
+    .mainparallaxsect__parallax #scene div:first-child {
+        right: 42%;
+    }
+
+    .servicesdark__box {
+        height: 280px;
+    }
+
+    .servicesdark__box {
+        padding: 20px;
+    }
+
+    .servicesdark__boxcontent img {
+        margin-bottom: 15px;
+    }
+
+    .howitworks .section-boldtext,
+    .howitworks .descr {
+        max-width: 100%;
+    }
+
+    .howitworks__box .hiwdescr p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .howitworks__box {
+        height: 120px;
+    }
+
+    .contactsfoot__leftsect ul li,
+    .contactsfoot__leftsect ul li a {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .contactsfoot__leftsect {
+        padding-left: 15%;
+    }
+
+    .footer__nav ul li {
+        margin-right: 17px;
+    }
+
+    .footer .header__signsect {
+        max-width: 270px;
+    }
+
+    .footer__nav:after {
+        display: none;
+    }
+
+    .footer__nav {
+        max-width: calc(100% - 270px);
+    }
+
+    .totop span {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hb__lang ul {
+        margin-top: -2px;
+    }
+
+    .myexcontainer {
+        padding: 0 40px;
+    }
+
+    .hb__menu ul li {
+        margin-right: 12px;
+    }
+
+    .hb__logo {
+        max-width: 100px;
+    }
+
+    .hb__sign ul li {
+        margin-right: 10px;
+    }
+
+    .hb__menu ul {
+        max-width: 645px;
+        display: flex;
+    }
+
+
+
+
+
+    .howitworks .section-title {
+        margin-bottom: 45px;
+    }
+
+    .howitworks a,
+    .totop {
+        font-size: 14px;
+    }
+
+    .header_nav a,
+    .header__sign a,
+    .header__language a,
+    .phonelink,
+    .footer__nav ul li a {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:1199.8px) {
+    .header__rightbox {
+        display: none;
+    }
+
+    .searchadaptive {
+        display: inline-block;
+    }
+
+    .searchadaptive .respsearchicon,
+    .burgericon {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+
+    .searchadaptive .respsearchicon {
+        background-image: url('../img/icons/search-icon.svg');
+        order: 1;
+        border: none;
+        background-color: none;
+        background-color: transparent;
+    }
+
+    .burgericon {
+        background-image: url('../img/icons/burger.svg');
+        order: 3;
+    }
+
+    .header__leftbox {
+        order: 2;
+    }
+
+    .header__contentwrapp {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header.header {
+        padding: 10px 0;
+        border-bottom: 1px solid #E0E0E0;
+    }
+
+    .mainparallaxsect__parallax #scene div:nth-child(2) img {
+        max-width: 100%;
+    }
+
+    .mainparallaxsect__parallax #scene div:first-child {
+        right: 27% !important;
+        top: 55px !important;
+    }
+
+    .mainparallaxsect__parallax #scene div:nth-child(2) {
+        bottom: initial;
+        top: 100px !important;
+        right: -30px;
+    }
+
+    .mainparallaxsect {
+        height: 500px;
+    }
+
+    .servicesdark {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+
+    .servicesdark__box {
+        width: 300px;
+    }
+
+    .servicesdark__slider {
+        padding-top: 33px;
+    }
+
+    .servicesdark__slider .slick-arrow {
+        height: 31px;
+        width: 60px;
+        border: none;
+        position: absolute;
+        background-image: url('../img/icons/slider-arrow.svg');
+        top: 0;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center;
+        background-color: #CD1319;
+    }
+
+    .servicesdark__slider .slick-prev {
+        right: 62px;
+        transform: rotate(-180deg);
+    }
+
+    .servicesdark__slider .slick-next {
+        right: 0;
+    }
+
+    .howitworks__box {
+        padding: 15px 15px 15px 20px;
+    }
+
+    .howitworks__box .hiwnum span {
+        font-size: 34px;
+    }
+
+    .howitworks__box .hiwnum {
+        width: 70px;
+        height: 60px;
+    }
+
+    .howitworks__box .hiwdescr {
+        width: calc(100% - 70px);
+        padding-left: 10px;
+    }
+
+    .usedcars {
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+
+    .arrowanimation {
+        display: none;
+    }
+
+    .usedcarscard__info {
+        padding: 20px;
+    }
+
+    .showmorecars {
+        margin-top: 20px;
+    }
+
+    .contactsfoot__rightsect .title {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .contactsfoot__rightsect form {
+        padding-right: 30px;
+    }
+
+    .contactsfoot__rightsect .btnsect {
+        max-width: 140px;
+    }
+
+    .contactsfoot__rightsect .fields {
+        max-width: calc(100% - 140px);
+    }
+
+    .contactsfoot__leftsect {
+        padding-left: 30px;
+    }
+
+    .contactsfoot__rightsect .fields input {
+        margin-bottom: 20px;
+    }
+
+    .contactsfoot__leftsect .title {
+        margin-bottom: 40px;
+        font-size: 28px;
+    }
+
+    .contactsfoot__leftsect .phone {
+        font-size: 18px;
+        padding-left: 36px;
+    }
+
+    .contactsfoot__leftsect ul {
+        max-width: 260px;
+    }
+
+    .blackfig {
+        top: -30px;
+        height: 370px;
+    }
+
+    .contactsfoot {
+        padding: 50px 0 80px;
+    }
+
+    .redfig {
+        top: -50px;
+        left: 19%;
+        height: 315px;
+    }
+
+    .totop {
+        top: -48px;
+    }
+
+    .contactsfoot .rightres {
+        bottom: -60px;
+        left: 0;
+        right: 0;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 22;
+        background: #fff;
+        /* display: none; */
+        transform: translateX(100%);
+        transition: 1s;
+        animation-timing-function: ease-in-out;
+    }
+
+    .mobile-menu.show {
+        transform: translateX(0);
+    }
+
+
+    .mobile-menu_head {
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #E0E0E0;
+        padding: 0 60px;
+        z-index: 2;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: #fff;
+    }
+
+    .mobile-menu_head span {
+        font-weight: 500;
+    }
+
+    .mobile-menu_head .closemenu {
+        outline: none;
+        padding: 0;
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        background-image: url('../img/icons/close.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        border: none;
+        background-color: transparent;
+    }
+
+    .mobile-menu_body {
+        /* padding-top: 25px; */
+        padding-top: 80px;
+        height: 100%;
+        overflow: scroll;
+        padding-bottom: 40px;
+    }
+
+    .mobile-menu_body .mobmenulist {
+        display: block;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .mobile-menu_body .mobmenulist li {
+        display: block;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .mobile-menu_body .mobmenulist li a {
+        color: #000000;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .mobile-menu_body .mobmenulist li:nth-child(1) a,
+    .mobile-menu_body .mobmenulist li:nth-child(2) a {
+        font-weight: bold;
+    }
+
+    .mobile-menu_body .moblanglist ul {
+        display: block;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .mobile-menu_body .moblanglist ul li {
+        display: inline-block;
+        height: auto;
+        margin: 0 15px;
+        position: relative;
+    }
+
+    .mobile-menu_body .moblanglist ul li a {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+    }
+
+    .mobile-menu_body .moblanglist ul li.active a {
+        color: #BDBDBD;
+    }
+
+    .mobile-menu_body .moblanglist ul li:first-child:after {
+        content: '';
+        display: inline-block;
+        width: 1px;
+        height: 12px;
+        background: #000;
+        position: absolute;
+        right: -16px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .mobile-menu_body .mobbtns {
+        text-align: center;
+    }
+
+    .mobile-menu_body .mobbtns a {
+        margin: 0 auto;
+    }
+
+    .mobile-menu_body .mobbtns a.redbtn,
+    .mobile-menu_body .mobbtns a.transparrbtn {
+        max-width: 290px;
+        width: 100%;
+        height: 48px;
+    }
+
+    .mobile-menu_body .mobbtns a.redbtn {
+        margin-bottom: 14px;
+    }
+
+    .mobile-menu_body .mobbtns a.transparrbtn {
+        margin-bottom: 24px;
+    }
+
+    .mobile-menu_body .mobbtns .mobbtns__tel {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000;
+        position: relative;
+        padding-left: 40px;
+    }
+
+    .mobile-menu_body .mobbtns .mobbtns__tel:before {
+        content: '';
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background-image: url('../img/icons/phone-icon.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .headerblack__content {
+        display: none;
+    }
+
+    .headerblack {
+        background: #fff;
+        height: auto;
+        padding: 10px 0;
+        border-bottom: 1px solid #E0E0E0;
+    }
+
+    .mobile-menu_body .mobmenulist {
+        padding-left: 0;
+    }
+
+    .headerblack .header__contentwrapp {
+        display: flex;
+    }
+
+    .servbottbox p:after {
+        top: initial;
+        left: 0;
+        bottom: -3px;
+    }
+
+    .bf__flexwrapper {
+        display: none;
+    }
+
+    .bf__rightreserved {
+        margin-top: 0;
+    }
+
+    .black-footer {
+        padding: 25px 0;
+    }
+
+    .black-footer {
+        margin-top: 50px;
+    }
+
+    .signform {
+        margin-top: -100px;
+    }
+
+    .onescreenpage {
+        min-height: calc(100vh - 121px);
+        padding-top: 141px;
+        padding-bottom: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .usedcarscard__info .title,
+    .usedcarscard__info .price {
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width:1024.8px) {
+
+    .mobile-menu_body .mobmenulist li a,
+    .mobile-menu_body .moblanglist ul li a {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .mobile-menu_body {
+        padding-top: 120px;
+    }
+
+    .mobile-menu_body .mobmenulist li {
+        margin-bottom: 20px;
+    }
+
+    .mobile-menu_body .mobbtns a.redbtn,
+    .mobile-menu_body .mobbtns a.transparrbtn,
+    .mobile-menu_body .mobbtns .mobbtns__tel {
+        font-size: 18px;
+    }
+
+
+
+
+
+    .mobile-menu_body .mobmenulist,
+    .mobile-menu_body .moblanglist ul,
+    .mobile-menu_body .mobbtns a.redbtn,
+    .mobile-menu_body .mobbtns a.transparrbtn {
+        margin-bottom: 30px;
+    }
+
+    
+
+
+
+
+
+
+
+
+}
+
+
+@media(max-width:991.8px) {
+    .mainparallaxsect__parallax #scene {
+        display: none;
+    }
+
+    .mainparallaxsect__parallax>img {
+        display: block;
+    }
+
+    .myexcontainer {
+        padding: 0 40px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .mainparallaxsect__content {
+        padding-top: 40px;
+    }
+
+    .sectsubtitle {
+        margin-bottom: 50px;
+    }
+
+    .mainparallaxsect {
+        height: auto;
+    }
+
+    h1 br {
+        display: none;
+    }
+
+    .servicesdark__box {
+        width: 280px;
+    }
+
+    .howitworks__descrsect {
+        margin-bottom: 25px;
+    }
+
+    .usedcars {
+        padding-top: 60px;
+    }
+
+    .servicescontsect {
+        padding-top: 10px;
+    }
+
+    .services__title {
+        margin-bottom: 10px;
+    }
+
+    .services__description {
+        margin-top: 20px;
+    }
+
+    .servbottboxcol {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .servbottbox p {
+        max-width: 220px;
+        font-size: 16px;
+    }
+
+    .servbottbox {
+        height: 70px;
+    }
+
+    .servbottbox p:after {
+        top: 50%;
+        left: -50px;
+        bottom: initial;
+    }
+
+    .black-footer {
+        padding: 15px 0;
+    }
+
+
+
+
+
+
+
+    .contactsfoot__leftsect {
+        padding: 50px 30px;
+    }
+
+    .blackfig {
+        height: 100%;
+        top: 0;
+    }
+
+    .redfig {
+        height: 100%;
+        top: -20px;
+        left: 0;
+    }
+
+    .contactsfoot__bgpic {
+        height: auto;
+        background-size: cover;
+    }
+
+    .totop {
+        top: -70px;
+    }
+
+    .contactsfoot__rightsect {
+        padding: 60px 30px;
+    }
+
+    .contactsfoot {
+        padding: 50px 0 50px;
+    }
+
+    .contactsfoot .rightres {
+        bottom: -34px;
+    }
+
+
+
+
+
+
+
+    .howitworks {
+        padding: 60px 0;
+    }
+
+    .usedcarscard__info .title,
+    .usedcarscard__info .price {
+        font-size: 18px;
+    }
+
+    .usedcarscard__info .descr {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width:575.8px) {
+    .myexcontainer {
+        padding: 0 15px;
+    }
+
+    .header__leftbox {
+        max-width: 94px;
+    }
+
+    header.header {
+        padding: 5px 0;
+    }
+
+    .mainparallaxsect__content {
+        padding-top: 30px;
+    }
+
+    .sectsubtitle {
+        margin-bottom: 24px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .sectsubtitle:after {
+        bottom: -12px;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .servicesdark__box {
+        width: 100%;
+    }
+
+    .servicesdark__boxcontent img,
+    .servicesdark__boxcontent .title {
+        margin-bottom: 20px;
+    }
+
+    .section-title.underlinered:after {
+        bottom: -12px;
+    }
+
+    .section-title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .howitworks .section-title {
+        margin-bottom: 24px;
+    }
+
+    .howitworks .section-boldtext {
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 12px;
+    }
+
+    .howitworks__box .hiwnum span {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .howitworks__box .hiwnum {
+        width: 50px;
+        height: 50px;
+    }
+
+    .howitworks__box .hiwdescr {
+        width: calc(100% - 50px);
+    }
+
+    .howitworks__box {
+        height: 84px;
+        margin-bottom: 10px;
+    }
+
+    .howitworks__box .hiwdescr p {
+        font-weight: 600;
+    }
+
+    .howitworks {
+        padding: 36px 0 26px;
+    }
+
+    .usedcars .section-title,
+    .faq .section-title {
+        text-align: left;
+    }
+
+    .usedcarscard__img {
+        overflow: hidden;
+        height: 170px;
+    }
+
+    .usedcarscard__info {
+        padding: 12px 15px;
+        background: #fff;
+    }
+
+    .usedcarscard__info .title {
+        margin-bottom: 6px;
+    }
+
+    .usedcarscard__info .descr {
+        margin-bottom: 12px;
+    }
+
+    .usedcarscard {
+        box-shadow: 0px 18px 80px rgba(0, 0, 0, 0.07), 0px 7.51997px 33.4221px rgba(0, 0, 0, 0.0345571), 0px 4.02054px 17.869px rgba(0, 0, 0, 0.0281663), 0px 2.25388px 10.0172px rgba(0, 0, 0, 0.0256993), 0px 1.19702px 5.32008px rgba(0, 0, 0, 0.0208133), 0px 0.498106px 2.21381px rgba(0, 0, 0, 0.0122481);
+    }
+
+    .showmorecars a {
+        width: 100%;
+    }
+
+    .showmorecars {
+        margin-top: 0;
+    }
+
+    .faq {
+        padding: 16px 0 90px;
+    }
+
+    .accordeon-title {
+        padding: 15px 30px 15px 0;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .accordeon-title span {
+        min-width: 30px;
+        width: 30px;
+    }
+
+    .accordeon-title svg {
+        right: 0;
+        width: 17px;
+    }
+
+    .card-body {
+        padding: 0 30px 15px 30px;
+    }
+
+    .card-body p {
+        padding-left: 10px;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .totop {
+        display: none;
+    }
+
+    .redfig {
+        width: 70%;
+        top: -95px;
+        height: 210px;
+        left: initial;
+        right: -15px;
+    }
+
+    .blackfig {
+        height: 100%;
+        top: -82px;
+        width: 100%;
+        height: 260px;
+    }
+
+    .contactsfoot__leftsect .title {
+        margin-top: -110px;
+    }
+
+    .contactsfoot__leftsect .title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .contactsfoot__leftsect .title:after {
+        bottom: -15px;
+    }
+
+    .contactsfoot__leftsect .phone {
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 34px;
+        margin-bottom: 18px;
+    }
+
+    .contactsfoot__leftsect ul li,
+    .contactsfoot__leftsect ul li a {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+
+    .contactsfoot__leftsect ul li a {
+        padding: 0;
+    }
+
+    .contactsfoot__leftsect {
+        padding: 50px 15px;
+    }
+
+    .contactsfoot__leftsect ul {
+        max-width: 230px;
+    }
+
+    .contactsfoot__rightsect {
+        padding: 10px 15px 25px;
+    }
+
+    .contactsfoot__rightsect .title {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+
+    .contactsfoot__rightsect .title span {
+        display: block;
+    }
+
+    .contactsfoot__rightsect form {
+        padding-right: 0;
+    }
+
+    .contactsfoot__rightsect .fields {
+        max-width: 100%;
+    }
+
+    .contactsfoot__rightsect form {
+        flex-wrap: wrap;
+    }
+
+    .contactsfoot__rightsect .btnsect {
+        max-width: 100%;
+        margin: 24px 0 0 0;
+    }
+
+    .contactsfoot__rightsect .btnsect input {
+        height: 36px;
+        width: 100%;
+    }
+
+    .contactsfoot__rightsect .fields input {
+        padding-left: 0;
+    }
+
+    .mobile-menu_body .mobmenulist li {
+        margin-bottom: 18px;
+    }
+
+    .mobile-menu_body .mobmenulist li a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .mobile-menu_body .moblanglist ul li a {
+        font-size: 15px;
+    }
+
+    .mobile-menu_body {
+        padding-top: 80px;
+    }
+
+    .mobile-menu_head {
+        padding: 0 15px;
+    }
+
+    .services__title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .services__listsect {
+        margin: 30px 0 50px;
+    }
+
+    .gotoaction {
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+
+    .gotoaction p {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .black-footer {
+        margin-top: 30px;
+    }
+
+    .signform {
+        margin-top: 0px;
+        padding: 50px 15px;
+    }
+
+    .onescreenpage {
+        display: block;
+    }
+
+    .onescreenpage {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .mobile-menu_body .mobmenulist,
+    .mobile-menu_body .moblanglist ul,
+    .mobile-menu_body .mobbtns a.redbtn,
+    .mobile-menu_body .mobbtns a.transparrbtn {
+        margin-bottom: 24px;
+    }
+
+    .mobile-menu_body .mobbtns a.redbtn,
+    .mobile-menu_body .mobbtns a.transparrbtn,
+    .mobile-menu_body .mobbtns .mobbtns__tel {
+        font-size: 14px;
+    }
+
+    .signform .title {
+        font-size: 18px;
+    }
+
+    .howitworks .descr p,
+    .howitworks__box .hiwdescr p,
+    .usedcarscard__info .title,
+    .usedcarscard__info .price {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .usedcarscard__info .descr {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+    }
+
+    .faq .section-title {
+        margin-bottom: 24px;
+    }
+
+    .howitworks .descr p {
+        margin-bottom: 12px;
+    }
+
+    .usedcars {
+        padding-top: 24px;
+    }
+
+    .servicesdark__boxcontent .title {
+        font-size: 22px;
+    }
+
+
+}
+
+@media(max-width:360.8px) {
+
+    .services__title,
+    .gotoaction p {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .servbottbox p {
+        font-size: 14px;
+    }
+
+    .servbottbox p:after {
+        left: -35px;
+    }
+}
