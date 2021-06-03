@@ -157,12 +157,44 @@ $(document).ready(function () {
 
 
     // catalog labels remove
-    $('.choseditem span').click(function () {
+    $('.choseditem:not(.clearall) span').click(function () {
         $(this).parent().remove();
     });
     $('.choseditem.clearall span').click(function () {
-        $('.choseditem').remove();
+        $(this).parents('.choseditems').remove();
     });
+
+    // catalog filter hide\show
+
+    $('.filterbtn').click(function () {
+        $('.filterside').addClass('show');
+    });
+
+    $('.closefilter').click(function () {
+        $('.filterside').removeClass('show');
+    });
+
+    $(document).click(function (e) {
+        let $target = $(e.target);
+        if (!$target.closest('.leftcatfilter').length && !$target.closest('.filterbtn').length) {
+            $('.filterside').removeClass('show');
+        }
+    });
+
+    // catalog - row - col
+    $('.torow').click(function () {
+        $(this).addClass('active');
+        $('.tocol').removeClass('active');
+        $('.catproductssect').removeClass('colstructure');
+
+    });
+
+    $('.tocol').click(function () {
+        $(this).addClass('active');
+        $('.torow').removeClass('active');
+        $('.catproductssect').addClass('colstructure');
+    });
+
 
 
 });

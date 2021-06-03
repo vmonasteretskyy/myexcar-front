@@ -39,11 +39,18 @@
                     </ul>
                 </div>
                 <a href="tel:9998887766" class="hb__tel">999 888 77 66</a>
-                <div class="hb__sign">
-                    <ul>
+                <div class="hb__sign logined">
+                    <!-- <ul>
                         <li><a href="login.html">Log in</a></li>
                         <li><a href="#">Registration</a></li>
-                    </ul>
+                    </ul> -->
+                    <div class="header__cart">
+                        <a href="#"><img src="img/icons/cart-icon.svg" alt="cart"></a>
+                        <span class="header__coutcart">1</span>
+                    </div>
+                    <div class="hiuser">
+                        <p>Hi, Alexandr</p>
+                    </div>
                 </div>
 
 
@@ -107,6 +114,7 @@
             <div class="myexcontainer">
                 <div class="row">
                     <div class="col-xl-3 d-flex align-items-center">
+                        <button class="filterbtn"></button>
                         <p class="filttitl">Filter</p>
                     </div>
                     <div class="col-xl-9">
@@ -153,8 +161,12 @@
         <section class="catcontent">
             <div class="myexcontainer">
                 <div class="row">
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-lg-4 filterside">
                         <aside class="leftcatfilter">
+                            <div class="leftcatfilter__mobtitle">
+                                <p>Filter</p>
+                                <button class="closefilter"></button>
+                            </div>
                             <p class="title">Price</p>
                             <div class="leftcatfilter-block">
                                 <div id="slider-range"></div>
@@ -287,6 +299,16 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="choseditems">
+                                    <div class="choseditem clearall">
+                                        <span></span>
+                                        Clear all
+                                    </div>
+                                    <div class="choseditem">
+                                        <span></span>
+                                        SUV
+                                    </div>
+                                </div>
                             </div>
                             <div class="leftcatfilter-block">
                                 <p class="title">Car Models</p>
@@ -316,6 +338,20 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="choseditems">
+                                    <div class="choseditem clearall">
+                                        <span></span>
+                                        Clear all
+                                    </div>
+                                    <div class="choseditem">
+                                        <span></span>
+                                        Q5
+                                    </div>
+                                    <div class="choseditem">
+                                        <span></span>
+                                        Q3
+                                    </div>
+                                </div>
                             </div>
                             <div class="leftcatfilter-block">
                                 <p class="title">Year</p>
@@ -338,316 +374,327 @@
                             </div>
                         </aside>
                     </div>
-                    <div class="col-xl-9">
+                    <div class="col-xl-9 col-lg-8 catproductssect colstructure">
                         <div class="catalogwrapper">
-                            <div class="catalogrow">
-                                <div class="catalogrow__body">
-                                    <div class="catalogrow__img">
-                                        <img src="img/carcat1.jpg" alt="car">
-                                    </div>
-                                    <div class="catalogrow__info">
-                                        <p class="date">03.30.2021</p>
-                                        <p class="title">2016 Audi Q3 OFFICIAL EXCLUSIVE </p>
-                                        <p class="article">1G1ND52F85M143229</p>
-                                        <div class="infobuttons">
-                                            <span>216,292 ml</span>
-                                            <span>4 Cyl</span>
-                                            <span>Auto</span>
+                            <div class="catalogrow__wrapper">
+                                <div class="catalogrow">
+                                    <div class="catalogrow__body">
+                                        <div class="catalogrow__img">
+                                            <img src="img/carcat1.jpg" alt="car">
                                         </div>
-                                        <div class="infobotttext">
-                                            <p>Location <span>CA-PITTSBURG</span></p>
-                                            <p>Engine <span>2.0</span></p>
-                                            <p>Color <span><span class="color" style="background: #828282;"></span>
-                                                    Gray</span></p>
+                                        <div class="catalogrow__info">
+                                            <p class="date">03.30.2021</p>
+                                            <p class="title">2016 Audi Q3 OFFICIAL EXCLUSIVE </p>
+                                            <p class="article">1G1ND52F85M143229</p>
+                                            <div class="infobuttons">
+                                                <span>216,292 ml</span>
+                                                <span>4 Cyl</span>
+                                                <span>Auto</span>
+                                            </div>
+                                            <div class="infobotttext">
+                                                <p>Location <span>CA-PITTSBURG</span></p>
+                                                <p>Engine <span>2.0</span></p>
+                                                <p>Color <span><span class="color" style="background: #828282;"></span>
+                                                        Gray</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="catalogrow__action">
+                                            <div class="linksbox">
+                                                <a href="#">CARFAX</a>
+                                                <a href="#">Report</a>
+                                            </div>
+                                            <p class="price">$ 20 000</p>
+                                            <a href="#" class="redbtn">Learn more</a>
                                         </div>
                                     </div>
-                                    <div class="catalogrow__action">
-                                        <div class="linksbox">
-                                            <a href="#">CARFAX</a>
-                                            <a href="#">Report</a>
-                                        </div>
-                                        <p class="price">$ 20 000</p>
-                                        <a href="#" class="redbtn">Learn more</a>
+                                    <div class="catalogrow__footer">
+                                        <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
+                                        <p>
+                                            <span class="text">44</span>
+                                            Score
+                                        </p>
+                                        <p>
+                                            <span class="text">21-35</span>
+                                            Similar Vehicles
+                                        </p>
+                                        <p>
+                                            <span class="text">3</span>
+                                            Owners
+                                        </p>
+                                        <p>
+                                            <span class="text">0</span>
+                                            Accidents
+                                        </p>
+                                        <p>
+                                            <span class="img green"></span>
+                                            <text>Titles/Probs</text>
+                                        </p>
+                                        <p>
+                                            <span class="img green"></span>
+                                            <text>Odo</text>
+                                        </p>
+                                        <p>
+                                            <span class="img yellow"></span>
+                                            <text>Use/Event</text>
+                                        </p>
                                     </div>
-                                </div>
-                                <div class="catalogrow__footer">
-                                    <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
-                                    <p>
-                                        <span class="text">44</span>
-                                        Score
-                                    </p>
-                                    <p>
-                                        <span class="text">21-35</span>
-                                        Similar Vehicles
-                                    </p>
-                                    <p>
-                                        <span class="text">3</span>
-                                        Owners
-                                    </p>
-                                    <p>
-                                        <span class="text">0</span>
-                                        Accidents
-                                    </p>
-                                    <p>
-                                        <span class="img green"></span>
-                                        Titles/Probs
-                                    </p>
-                                    <p>
-                                        <span class="img green"></span>
-                                        Odo
-                                    </p>
-                                    <p>
-                                        <span class="img yellow"></span>
-                                        Use/Event
-                                    </p>
                                 </div>
                             </div>
-                            <div class="catalogrow">
-                                <div class="catalogrow__body">
-                                    <div class="catalogrow__img">
-                                        <img src="img/carcat2.jpg" alt="car">
-                                    </div>
-                                    <div class="catalogrow__info">
-                                        <p class="date">03.30.2021</p>
-                                        <p class="title">2018 VOLKSWAGEN JETTA</p>
-                                        <p class="article">1G1ND52F85M143229</p>
-                                        <div class="infobuttons">
-                                            <span>216,292 ml</span>
-                                            <span>4 Cyl</span>
-                                            <span>Auto</span>
+                            <div class="catalogrow__wrapper">
+                                <div class="catalogrow">
+                                    <div class="catalogrow__body">
+                                        <div class="catalogrow__img">
+                                            <img src="img/carcat2.jpg" alt="car">
                                         </div>
-                                        <div class="infobotttext">
-                                            <p>Location <span>CA-PITTSBURG</span></p>
-                                            <p>Engine <span>2.0</span></p>
-                                            <p>Color <span><span class="color" style="background: #828282;"></span>
-                                                    Gray</span></p>
+                                        <div class="catalogrow__info">
+                                            <p class="date">03.30.2021</p>
+                                            <p class="title">2018 VOLKSWAGEN JETTA</p>
+                                            <p class="article">1G1ND52F85M143229</p>
+                                            <div class="infobuttons">
+                                                <span>216,292 ml</span>
+                                                <span>4 Cyl</span>
+                                                <span>Auto</span>
+                                            </div>
+                                            <div class="infobotttext">
+                                                <p>Location <span>CA-PITTSBURG</span></p>
+                                                <p>Engine <span>2.0</span></p>
+                                                <p>Color <span><span class="color" style="background: #828282;"></span>
+                                                        Gray</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="catalogrow__action">
+                                            <div class="linksbox">
+                                                <a href="#">CARFAX</a>
+                                                <a href="#">Report</a>
+                                            </div>
+                                            <p class="price">$ 17950</p>
+                                            <a href="#" class="redbtn">Learn more</a>
                                         </div>
                                     </div>
-                                    <div class="catalogrow__action">
-                                        <div class="linksbox">
-                                            <a href="#">CARFAX</a>
-                                            <a href="#">Report</a>
-                                        </div>
-                                        <p class="price">$ 17950</p>
-                                        <a href="#" class="redbtn">Learn more</a>
+                                    <div class="catalogrow__footer">
+                                        <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
+                                        <p>
+                                            <span class="text">44</span>
+                                            Score
+                                        </p>
+                                        <p>
+                                            <span class="text">21-35</span>
+                                            Similar Vehicles
+                                        </p>
+                                        <p>
+                                            <span class="text">3</span>
+                                            Owners
+                                        </p>
+                                        <p>
+                                            <span class="text">0</span>
+                                            Accidents
+                                        </p>
+                                        <p>
+                                            <span class="img green"></span>
+                                            Titles/Probs
+                                        </p>
+                                        <p>
+                                            <span class="img green"></span>
+                                            Odo
+                                        </p>
+                                        <p>
+                                            <span class="img yellow"></span>
+                                            Use/Event
+                                        </p>
                                     </div>
-                                </div>
-                                <div class="catalogrow__footer">
-                                    <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
-                                    <p>
-                                        <span class="text">44</span>
-                                        Score
-                                    </p>
-                                    <p>
-                                        <span class="text">21-35</span>
-                                        Similar Vehicles
-                                    </p>
-                                    <p>
-                                        <span class="text">3</span>
-                                        Owners
-                                    </p>
-                                    <p>
-                                        <span class="text">0</span>
-                                        Accidents
-                                    </p>
-                                    <p>
-                                        <span class="img green"></span>
-                                        Titles/Probs
-                                    </p>
-                                    <p>
-                                        <span class="img green"></span>
-                                        Odo
-                                    </p>
-                                    <p>
-                                        <span class="img yellow"></span>
-                                        Use/Event
-                                    </p>
                                 </div>
                             </div>
-                            <div class="catalogrow">
-                                <div class="catalogrow__body">
-                                    <div class="catalogrow__img">
-                                        <img src="img/carcat3.jpg" alt="car">
-                                    </div>
-                                    <div class="catalogrow__info">
-                                        <p class="date">03.30.2021</p>
-                                        <p class="title">2016 Audi Q3 OFFICIAL EXCLUSIVE </p>
-                                        <p class="article">1G1ND52F85M143229</p>
-                                        <div class="infobuttons">
-                                            <span>216,292 ml</span>
-                                            <span>4 Cyl</span>
-                                            <span>Auto</span>
+                            <div class="catalogrow__wrapper">
+                                <div class="catalogrow">
+                                    <div class="catalogrow__body">
+                                        <div class="catalogrow__img">
+                                            <img src="img/carcat3.jpg" alt="car">
                                         </div>
-                                        <div class="infobotttext">
-                                            <p>Location <span>CA-PITTSBURG</span></p>
-                                            <p>Engine <span>2.0</span></p>
-                                            <p>Color <span><span class="color" style="background: #000;"></span>
-                                                    Black</span></p>
+                                        <div class="catalogrow__info">
+                                            <p class="date">03.30.2021</p>
+                                            <p class="title">2016 Audi Q3 OFFICIAL EXCLUSIVE </p>
+                                            <p class="article">1G1ND52F85M143229</p>
+                                            <div class="infobuttons">
+                                                <span>216,292 ml</span>
+                                                <span>4 Cyl</span>
+                                                <span>Auto</span>
+                                            </div>
+                                            <div class="infobotttext">
+                                                <p>Location <span>CA-PITTSBURG</span></p>
+                                                <p>Engine <span>2.0</span></p>
+                                                <p>Color <span><span class="color" style="background: #000;"></span>
+                                                        Black</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="catalogrow__action">
+                                            <div class="linksbox">
+                                                <a href="#">CARFAX</a>
+                                                <a href="#">Report</a>
+                                            </div>
+                                            <p class="price">$ 20 000</p>
+                                            <a href="#" class="redbtn">Learn more</a>
                                         </div>
                                     </div>
-                                    <div class="catalogrow__action">
-                                        <div class="linksbox">
-                                            <a href="#">CARFAX</a>
-                                            <a href="#">Report</a>
-                                        </div>
-                                        <p class="price">$ 20 000</p>
-                                        <a href="#" class="redbtn">Learn more</a>
+                                    <div class="catalogrow__footer">
+                                        <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
+                                        <p>
+                                            <span class="text">44</span>
+                                            Score
+                                        </p>
+                                        <p>
+                                            <span class="text">21-35</span>
+                                            Similar Vehicles
+                                        </p>
+                                        <p>
+                                            <span class="text">3</span>
+                                            Owners
+                                        </p>
+                                        <p>
+                                            <span class="text">0</span>
+                                            Accidents
+                                        </p>
+                                        <p>
+                                            <span class="img green"></span>
+                                            Titles/Probs
+                                        </p>
+                                        <p>
+                                            <span class="img green"></span>
+                                            Odo
+                                        </p>
+                                        <p>
+                                            <span class="img yellow"></span>
+                                            Use/Event
+                                        </p>
                                     </div>
-                                </div>
-                                <div class="catalogrow__footer">
-                                    <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
-                                    <p>
-                                        <span class="text">44</span>
-                                        Score
-                                    </p>
-                                    <p>
-                                        <span class="text">21-35</span>
-                                        Similar Vehicles
-                                    </p>
-                                    <p>
-                                        <span class="text">3</span>
-                                        Owners
-                                    </p>
-                                    <p>
-                                        <span class="text">0</span>
-                                        Accidents
-                                    </p>
-                                    <p>
-                                        <span class="img green"></span>
-                                        Titles/Probs
-                                    </p>
-                                    <p>
-                                        <span class="img green"></span>
-                                        Odo
-                                    </p>
-                                    <p>
-                                        <span class="img yellow"></span>
-                                        Use/Event
-                                    </p>
                                 </div>
                             </div>
-                            <div class="catalogrow">
-                                <div class="catalogrow__body">
-                                    <div class="catalogrow__img">
-                                        <img src="img/carcat4.jpg" alt="car">
-                                    </div>
-                                    <div class="catalogrow__info">
-                                        <p class="date">03.30.2021</p>
-                                        <p class="title">2017 VOLKSWAGEN JETTA</p>
-                                        <p class="article">1G1ND52F85M143229</p>
-                                        <div class="infobuttons">
-                                            <span>216,292 ml</span>
-                                            <span>4 Cyl</span>
-                                            <span>Auto</span>
+                            <div class="catalogrow__wrapper">
+                                <div class="catalogrow">
+                                    <div class="catalogrow__body">
+                                        <div class="catalogrow__img">
+                                            <img src="img/carcat4.jpg" alt="car">
                                         </div>
-                                        <div class="infobotttext">
-                                            <p>Location <span>CA-PITTSBURG</span></p>
-                                            <p>Engine <span>2.0</span></p>
-                                            <p>Color <span><span class="color" style="background: #828282;"></span>
-                                                    Gray</span></p>
+                                        <div class="catalogrow__info">
+                                            <p class="date">03.30.2021</p>
+                                            <p class="title">2017 VOLKSWAGEN JETTA</p>
+                                            <p class="article">1G1ND52F85M143229</p>
+                                            <div class="infobuttons">
+                                                <span>216,292 ml</span>
+                                                <span>4 Cyl</span>
+                                                <span>Auto</span>
+                                            </div>
+                                            <div class="infobotttext">
+                                                <p>Location <span>CA-PITTSBURG</span></p>
+                                                <p>Engine <span>2.0</span></p>
+                                                <p>Color <span><span class="color" style="background: #828282;"></span>
+                                                        Gray</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="catalogrow__action">
+                                            <div class="linksbox">
+                                                <a href="#">CARFAX</a>
+                                                <a href="#">Report</a>
+                                            </div>
+                                            <p class="price">$ 8 800</p>
+                                            <a href="#" class="redbtn">Learn more</a>
                                         </div>
                                     </div>
-                                    <div class="catalogrow__action">
-                                        <div class="linksbox">
-                                            <a href="#">CARFAX</a>
-                                            <a href="#">Report</a>
-                                        </div>
-                                        <p class="price">$ 8 800</p>
-                                        <a href="#" class="redbtn">Learn more</a>
+                                    <div class="catalogrow__footer">
+                                        <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
+                                        <p>
+                                            <span class="text">44</span>
+                                            Score
+                                        </p>
+                                        <p>
+                                            <span class="text">21-35</span>
+                                            Similar Vehicles
+                                        </p>
+                                        <p>
+                                            <span class="text">3</span>
+                                            Owners
+                                        </p>
+                                        <p>
+                                            <span class="text">0</span>
+                                            Accidents
+                                        </p>
+                                        <p>
+                                            <span class="img green"></span>
+                                            Titles/Probs
+                                        </p>
+                                        <p>
+                                            <span class="img green"></span>
+                                            Odo
+                                        </p>
+                                        <p>
+                                            <span class="img yellow"></span>
+                                            Use/Event
+                                        </p>
                                     </div>
-                                </div>
-                                <div class="catalogrow__footer">
-                                    <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
-                                    <p>
-                                        <span class="text">44</span>
-                                        Score
-                                    </p>
-                                    <p>
-                                        <span class="text">21-35</span>
-                                        Similar Vehicles
-                                    </p>
-                                    <p>
-                                        <span class="text">3</span>
-                                        Owners
-                                    </p>
-                                    <p>
-                                        <span class="text">0</span>
-                                        Accidents
-                                    </p>
-                                    <p>
-                                        <span class="img green"></span>
-                                        Titles/Probs
-                                    </p>
-                                    <p>
-                                        <span class="img green"></span>
-                                        Odo
-                                    </p>
-                                    <p>
-                                        <span class="img yellow"></span>
-                                        Use/Event
-                                    </p>
                                 </div>
                             </div>
-                            <div class="catalogrow">
-                                <div class="catalogrow__body">
-                                    <div class="catalogrow__img">
-                                        <img src="img/carcat5.jpg" alt="car">
-                                    </div>
-                                    <div class="catalogrow__info">
-                                        <p class="date">03.30.2021</p>
-                                        <p class="title">2014 Audi Q5</p>
-                                        <p class="article">1G1ND52F85M143229</p>
-                                        <div class="infobuttons">
-                                            <span>216,292 ml</span>
-                                            <span>4 Cyl</span>
-                                            <span>Auto</span>
+                            <div class="catalogrow__wrapper">
+                                <div class="catalogrow">
+                                    <div class="catalogrow__body">
+                                        <div class="catalogrow__img">
+                                            <img src="img/carcat5.jpg" alt="car">
                                         </div>
-                                        <div class="infobotttext">
-                                            <p>Location <span>CA-PITTSBURG</span></p>
-                                            <p>Engine <span>2.0</span></p>
-                                            <p>Color <span><span class="color" style="background: #124588;"></span> Dark
-                                                    Blue</span></p>
+                                        <div class="catalogrow__info">
+                                            <p class="date">03.30.2021</p>
+                                            <p class="title">2014 Audi Q5</p>
+                                            <p class="article">1G1ND52F85M143229</p>
+                                            <div class="infobuttons">
+                                                <span>216,292 ml</span>
+                                                <span>4 Cyl</span>
+                                                <span>Auto</span>
+                                            </div>
+                                            <div class="infobotttext">
+                                                <p>Location <span>CA-PITTSBURG</span></p>
+                                                <p>Engine <span>2.0</span></p>
+                                                <p>Color <span><span class="color" style="background: #124588;"></span>
+                                                        Dark
+                                                        Blue</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="catalogrow__action">
+                                            <div class="linksbox">
+                                                <a href="#">CARFAX</a>
+                                                <a href="#">Report</a>
+                                            </div>
+                                            <p class="price">$ 22 000</p>
+                                            <a href="#" class="redbtn">Learn more</a>
                                         </div>
                                     </div>
-                                    <div class="catalogrow__action">
-                                        <div class="linksbox">
-                                            <a href="#">CARFAX</a>
-                                            <a href="#">Report</a>
-                                        </div>
-                                        <p class="price">$ 22 000</p>
-                                        <a href="#" class="redbtn">Learn more</a>
+                                    <div class="catalogrow__footer">
+                                        <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
+                                        <p>
+                                            <span class="text">44</span>
+                                            Score
+                                        </p>
+                                        <p>
+                                            <span class="text">21-35</span>
+                                            Similar Vehicles
+                                        </p>
+                                        <p>
+                                            <span class="text">3</span>
+                                            Owners
+                                        </p>
+                                        <p>
+                                            <span class="text">0</span>
+                                            Accidents
+                                        </p>
+                                        <p>
+                                            <span class="img green"></span>
+                                            Titles/Probs
+                                        </p>
+                                        <p>
+                                            <span class="img green"></span>
+                                            Odo
+                                        </p>
+                                        <p>
+                                            <span class="img yellow"></span>
+                                            Use/Event
+                                        </p>
                                     </div>
-                                </div>
-                                <div class="catalogrow__footer">
-                                    <a href="#" class="logo"><img src="img/autocheck.png" alt="logo"></a>
-                                    <p>
-                                        <span class="text">44</span>
-                                        Score
-                                    </p>
-                                    <p>
-                                        <span class="text">21-35</span>
-                                        Similar Vehicles
-                                    </p>
-                                    <p>
-                                        <span class="text">3</span>
-                                        Owners
-                                    </p>
-                                    <p>
-                                        <span class="text">0</span>
-                                        Accidents
-                                    </p>
-                                    <p>
-                                        <span class="img green"></span>
-                                        Titles/Probs
-                                    </p>
-                                    <p>
-                                        <span class="img green"></span>
-                                        Odo
-                                    </p>
-                                    <p>
-                                        <span class="img yellow"></span>
-                                        Use/Event
-                                    </p>
                                 </div>
                             </div>
                         </div>
