@@ -195,6 +195,69 @@ $(document).ready(function () {
         $('.catproductssect').addClass('colstructure');
     });
 
+    // PRODUCT slider
+
+    var $status = $('.procard__mainsliderwrapp .pagingInfo');
+    var $slickElement = $('.procard__mainsliderwrapp .procard__mainslider');
+
+    $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        if (slick.slideCount < 10) {
+            var i = (currentSlide ? currentSlide : 0) + 1;
+            $status.text('0' + i + ' | 0' + slick.slideCount);
+        } else {
+            var i = (currentSlide ? currentSlide : 0) + 1;
+            $status.text(i + ' | ' + slick.slideCount);
+        }
+
+    });
+
+    $slickElement.slick({
+        dots: false,
+        infinite: false,
+        speed: 2500,
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>',
+        // autoplay: true,
+        autoplaySpeed: 4000,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        speed: 1200,
+        arrows: true,
+        asNavFor: '.procard__littslider'
+    });
+
+    $('.procard__littslider').slick({
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        asNavFor: '.procard__mainsliderwrapp .procard__mainslider',
+        dots: false,
+        centerMode: false,
+        focusOnSelect: true,
+        arrows: false,
+        infinite: false,
+        variableWidth: true
+    });
+
+    $('.procard__showphotos').click(function () {
+        $(this).toggleClass('openslides');
+        $('.overflowhiddsect').toggleClass('h-auto');
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 });

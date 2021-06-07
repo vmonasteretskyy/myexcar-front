@@ -41,6 +41,12 @@
         flex: 0 0 60%;
     }
 
+    .cattopfilter.cattopfilter_specials .filtbox {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+
 }
 
 @media(max-width:1700.8px) {
@@ -634,19 +640,129 @@
         font-size: 11px;
     }
 
+    .selectimitation__selitem {
+        height: 42px;
+    }
 
+    .cattopfilter.cattopfilter_specials .leftcatfilter-block {
+        width: 180px;
+    }
 
-
-
-
-
-
-
-
+    .cattopfilter.cattopfilter_specials .choseditems {
+        padding-top: 5px;
+    }
 
     .colstructure .catalogrow {
         min-height: initial;
     }
+
+    .specials__loadbtn span {
+        font-size: 14px;
+    }
+
+    .specials__loadbtn {
+        padding: 12px 40px;
+        margin-top: 40px;
+    }
+
+    .specials-catcontent {
+        padding-bottom: 40px;
+    }
+
+    .specproduct__img {
+        height: 200px;
+    }
+
+    .procard__head h1,
+    .procard__head .price {
+        margin-bottom: 10px;
+    }
+
+    .procard__head {
+        padding: 5px 0 15px 0;
+    }
+
+    .procard__labelsbtns span {
+        font-size: 14px;
+        padding: 3px 14px;
+    }
+
+    .procard__prodwrapp {
+        padding: 25px;
+    }
+
+    .procard__mainslider .procard__mainslide {
+        height: 350px;
+    }
+
+    .sharesect .sharebtn:after {
+        width: 20px;
+        height: 20px;
+    }
+
+    .procard__labelstext p text {
+        margin-left: 6px;
+    }
+
+    .procard__labelsbtns {
+        margin-bottom: 15px;
+    }
+
+    .vehicle-history .links a::after {
+        width: 20px;
+        height: 20px;
+        background-size: 100%;
+    }
+
+    .vehicle-history .catalogrow__footer p span.img {
+        width: 20px;
+        height: 20px;
+        background-size: 100%;
+        margin-bottom: 5px;
+    }
+
+    .vehicle-history__middlebox .catalogrow__footer {
+        padding: 5px 20px;
+    }
+
+    .procard__mainsliderwrapp .pagingInfo {
+        bottom: 10px;
+        left: 15px;
+    }
+
+    .procard__inftop .procard__infbtns {
+        max-width: 270px;
+    }
+
+    .procard__showphotos:after {
+        width: 20px;
+        height: 20px;
+    }
+
+    .procard__littslider .slick-slide {
+        width: 16.666%;
+    }
+
+    .procard__showphotos {
+        padding-right: 30px;
+    }
+
+    .interested-products .usedcarscard__info .title {
+        height: 48px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -681,7 +797,15 @@
     .catalogrow__info .article,
     .catalogrow__info .infobuttons span,
     .catalogrow__info .infobotttext p,
-    .catalogrow__footer p span.text {
+    .catalogrow__footer p span.text,
+    .specproduct__descr .price,
+    .procard__head .date,
+    .procard__head .vincode,
+    .sharesect .sharebtn,
+    .procard__labelstext p,
+    .vehicle-history .links a,
+    .procard__mainsliderwrapp .pagingInfo,
+    .procard__showphotos {
         font-size: 14px;
         line-height: normal;
     }
@@ -697,12 +821,15 @@
         font-size: 18px;
     }
 
-    .catalogrow__action .price {
+    .catalogrow__action .price,
+    .procard__head .price,
+    .interested-products__title {
         font-size: 20px;
     }
 
     .signform .title,
-    .cattopfilter .filttitl {
+    .cattopfilter .filttitl,
+    .procard__head h1 {
         font-size: 22px;
     }
 
@@ -914,6 +1041,32 @@
         margin-left: -5px;
         margin-right: -5px;
     }
+
+    .specproduct__img {
+        height: 160px;
+    }
+
+    .specproduct__descr {
+        padding: 10px 15px;
+    }
+
+    .specproduct__descr .arrowanimation {
+        bottom: 10px;
+        right: 20px;
+    }
+
+    .arrowanimation img {
+        width: 34px;
+    }
+
+    .procard__mainslider .procard__mainslide {
+        height: 300px;
+    }
+
+
+
+
+
 
 
 
@@ -1424,8 +1577,29 @@
         padding-right: 10px;
     }
 
+    .specproduct__descr .price {
+        padding-right: 0;
+    }
 
+    .procard__littslider .slick-slide {
+        width: 20%;
+    }
 
+    .vehicle-history__middlebox .catalogrow__footer .logo img {
+        max-width: 70px;
+    }
+
+    .vehicle-history__middlebox .catalogrow__footer {
+        padding: 5px 10px;
+    }
+
+    .vehicle-history__middlebox .catalogrow__footer p span.text {
+        margin-bottom: 3px;
+    }
+
+    .vehicle-history__middlebox .catalogrow__footer p {
+        max-width: 60px;
+    }
 
 
 
@@ -1436,7 +1610,8 @@
     }
 
     .usedcarscard__info .title,
-    .usedcarscard__info .price {
+    .usedcarscard__info .price,
+    .specproduct__descr .title {
         font-size: 14px;
     }
 
@@ -1600,6 +1775,13 @@
 
 
 
+
+
+
+
+
+
+
     .mobile-menu_body .mobbtns a.redbtn,
     .mobile-menu_body .mobbtns a.transparrbtn,
     .mobile-menu_body .mobbtns .mobbtns__tel {
@@ -1730,6 +1912,57 @@
         height: 200px;
     }
 
+    .cattopfilter.cattopfilter_specials .leftcatfilter-block {
+        margin-right: 10px;
+    }
+
+    .cattopfilter.cattopfilter_specials .leftcatfilter-block,
+    .cattopfilter_specials .filtbox .sortby {
+        width: 145px;
+    }
+
+    .cattopfilter.cattopfilter_specials .filtbox .sortby .jq-selectbox {
+        width: 100%;
+    }
+
+    .selectimitation__sellist {
+        padding: 10px 14px 8px 14px;
+    }
+
+    .procard__littslide {
+        height: 75px;
+    }
+
+    .procard__littsliderwrap .overflowhiddsect {
+        height: 80px;
+    }
+
+    .procard__mainslider .procard__mainslide {
+        height: auto;
+    }
+
+    .procard__inftop {
+        margin-top: 20px;
+    }
+
+    .procard__labelsbtns {
+        padding-bottom: 0;
+        margin-bottom: 20px;
+    }
+
+    .procard__labelstext p {
+        margin-right: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1811,6 +2044,73 @@
     .cattopfilter .filtbox .jq-selectbox__select {
         height: 48px;
     }
+
+    .cattopfilter.cattopfilter_specials .col-xl-3 {
+        display: none !important;
+    }
+
+    .cattopfilter.cattopfilter_specials .col-xl-9 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .cattopfilter.cattopfilter_specials .filtbox .jq-selectbox__select {
+        height: 42px;
+    }
+
+    .cattopfilter.cattopfilter_specials .filtbox {
+        justify-content: space-between;
+    }
+
+    .cattopfilter.cattopfilter_specials {
+        padding-top: 8px;
+    }
+
+    .procard__prodwrapp {
+        padding: 15px;
+    }
+
+    .procard__labelstext p {
+        margin-bottom: 10px;
+    }
+
+    .procard__head .col-lg-7.col-md-7.col-sm-8 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .procard__head h1 {
+        order: 2;
+    }
+
+    .procard__head .date {
+        order: 1;
+        margin-bottom: 10px;
+    }
+
+    .procard__head .price,
+    .procard__head .vincode {
+        text-align: left;
+        line-height: normal;
+    }
+
+    .procard__head .price {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+
+
+
+
+
+
+    .procard__head .date,
+    .procard__head .vincode {
+        font-size: 12px;
+    }
+
 }
 
 @media(max-width:600.8px) {
@@ -1818,7 +2118,6 @@
         max-width: 100%;
     }
 }
-
 
 @media(max-width:575.8px) {
     .myexcontainer {
@@ -2227,6 +2526,165 @@
         display: none;
     }
 
+    .cattopfilter.cattopfilter_specials .leftcatfilter-block,
+    .cattopfilter_specials .filtbox .sortby {
+        width: 110px;
+    }
+
+    .cattopfilter.cattopfilter_specials .leftcatfilter-block {
+        margin-right: 5px;
+    }
+
+    .cattopfilter.cattopfilter_specials .selectimitation__arrow {
+        right: 8px;
+    }
+
+    .cattopfilter.cattopfilter_specials .selectimitation__selitem {
+        padding: 2px 22px 2px 5px;
+    }
+
+    .cattopfilter.cattopfilter_specials .filtbox .jq-selectbox__select {
+        padding-left: 5px;
+        padding-right: 30px;
+        font-size: 14px;
+    }
+
+    .cattopfilter.cattopfilter_specials .selectimitation__selitem {
+        font-size: 14px;
+    }
+
+    .cattopfilter.cattopfilter_specials .selectimitation__sellist {
+        padding: 5px;
+    }
+
+    .cattopfilter.cattopfilter_specials .selectimitation__checkrow label {
+        font-size: 14px;
+        padding-left: 22px;
+    }
+
+    .specials__loadbtn span {
+        font-size: 12px;
+    }
+
+    .specials__loadbtn {
+        padding: 10px 30px;
+    }
+
+    .cattopfilter.cattopfilter_specials .leftcatfilter-block {
+        margin-right: 2px;
+    }
+
+    .cattopfilter.cattopfilter_specials .jq-selectbox__trigger-arrow {
+        border-top: 5px solid #000;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        right: 8px;
+    }
+
+    .cattopfilter.cattopfilter_specials .selectimitation__arrow {
+        width: 10px;
+        height: 5px;
+    }
+
+    .cattopfilter.cattopfilter_specials .jq-selectbox__trigger {
+        width: 20px;
+    }
+
+    .vehicle-history__middlebox .catalogrow__footer {
+        flex-wrap: wrap;
+    }
+
+    .procard__head h1 {
+        line-height: 28px;
+    }
+
+    .procard__mainslider .slick-arrow {
+        width: 50px;
+        padding: 0;
+    }
+
+    .procard__mainslider .slick-arrow:after {
+        width: 24px;
+        height: 24px;
+    }
+
+    .procard__mainslider .procard__mainslide {
+        height: 220px;
+    }
+
+    .procard__mainsliderwrapp .pagingInfo {
+        bottom: 5px;
+        left: 5px;
+    }
+
+    .procard__littslider .slick-slide {
+        width: 33.333%;
+    }
+
+    .procard__showphotos {
+        margin-top: 10px;
+    }
+
+    .procard__inftop .sharesect {
+        text-align: left !important;
+        margin-top: 20px;
+    }
+
+    .vehicle-history__middlebox .catalogrow__footer {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .vehicle-history__middlebox .catalogrow__footer p,
+    .vehicle-history__middlebox .catalogrow__footer a {
+        max-width: 100%;
+        width: 33.333%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .procard__inftop .procard__infbtns {
+        max-width: 100%;
+    }
+
+    .procard__inftop .procard__infbtns .redbtn,
+    .procard__inftop .procard__infbtns .tel {
+        max-width: 100%;
+    }
+
+    .nav-link {
+        padding: 8px 15px;
+    }
+
+    .tab-content .tab-pane {
+        padding: 14px;
+    }
+
+    .interested-products__title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .interested-products .usedcarscard__info .title {
+        height: auto;
+    }
+
+    .interested-products .usedcarscard__info .title {
+        height: auto;
+        display: -webkit-box;
+        -webkit-line-clamp: initial;
+        -webkit-box-orient: initial;
+        overflow: initial;
+    }
+
+    .greybg {
+        padding-bottom: 30px;
+    }
+
+
+
+
+
 
 
 
@@ -2247,7 +2705,8 @@
 
     .mobile-menu_body .mobbtns a.redbtn,
     .mobile-menu_body .mobbtns a.transparrbtn,
-    .mobile-menu_body .mobbtns .mobbtns__tel {
+    .mobile-menu_body .mobbtns .mobbtns__tel,
+    .tab-content .tab-pane p {
         font-size: 14px;
     }
 
@@ -2309,6 +2768,10 @@
 
     .colstructure .catalogrow__img {
         height: 130px;
+    }
+
+    .procard__mainslider .procard__mainslide {
+        height: 180px;
     }
 
 
