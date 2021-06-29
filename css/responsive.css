@@ -90,6 +90,10 @@
         margin-right: 5px;
     }
 
+    .aucprodtotal__body .rodprice {
+        font-size: 20px;
+    }
+
 }
 
 @media(max-width:1600.8px) {
@@ -759,11 +763,51 @@
         max-width: 427px;
     }
 
+    .aucprodtotal__body .rodprice {
+        font-size: 18px;
+    }
 
+    .aucprodtotal__body .rodcount {
+        padding-right: 10px;
+    }
 
+    .aucprodtotal .title {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
 
+    .aucprodtotal {
+        padding: 24px;
+    }
 
+    .aucprodtotal__body {
+        padding-right: 10px 0;
+    }
 
+    .aucprodtotal__footer {
+        padding-top: 15px;
+    }
+
+    .aucprodtotal__footer .redbtn {
+        margin-bottom: 15px;
+    }
+
+    .aucprodrow__descr .title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .aucprodrow__descr .code {
+        font-size: 14px;
+    }
+
+    .aucprodrow__descr {
+        padding-left: 20px;
+    }
+
+    .aucprodrow__price a {
+        width: 130px;
+    }
 
 
 
@@ -814,7 +858,9 @@
 
     .sectsubtitle,
     .leftcatfilter .title,
-    .catalogrow__info .title {
+    .catalogrow__info .title,
+    .aucprodrow .infotext,
+    .aucprodrow__price span {
         font-size: 16px;
     }
 
@@ -1612,6 +1658,60 @@
         max-width: 320px;
     }
 
+    .bidsection__timerwrap {
+        padding: 30px;
+    }
+
+    .procard__mainslider .slick-arrow {
+        width: 65px;
+    }
+
+    #clockdiv>div span {
+        width: 80px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    #clockdiv>div:not(:last-child) span:after {
+        right: -11px;
+    }
+
+    .bidfield {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .bidfield p {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .bidfield input {
+        margin-right: 20px;
+        max-width: calc(50% - 10px);
+    }
+
+    .bidfield .redbtn {
+        max-width: calc(50% - 10px);
+    }
+
+    .aucprodrow__price a {
+        height: 32px;
+        width: 110px;
+    }
+
+    .aucprodrow__price span {
+        margin-right: 0;
+        width: 100%;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+
+    .aucprodrow__price {
+        flex-wrap: wrap;
+    }
+
+
 
 
 
@@ -1629,7 +1729,8 @@
 
     .usedcarscard__info .title,
     .usedcarscard__info .price,
-    .specproduct__descr .title {
+    .specproduct__descr .title,
+    .aucprodrow__price a {
         font-size: 14px;
     }
 
@@ -2014,6 +2115,11 @@
         text-align: left;
     }
 
+    .aucprodtotal {
+        margin-top: 24px;
+        position: relative;
+    }
+
 
 
 
@@ -2146,6 +2252,24 @@
         font-size: 18px;
         margin-bottom: 5px;
     }
+
+    #clockdiv>div span {
+        width: 65px;
+    }
+
+    #clockdiv>div:not(:last-child) span:after {
+        display: none;
+    }
+
+    .aucprodrow__price span {
+        text-align: left;
+    }
+
+    .aucprodrow__price {
+        justify-content: flex-start;
+        padding-left: 175px;
+    }
+
 
 
 
@@ -2728,16 +2852,66 @@
         padding-bottom: 30px;
     }
 
+    .bidsection__timerwrap {
+        padding: 15px;
+    }
 
+    #clockdiv>div .smalltext {
+        font-size: 12px;
+        line-height: 20px;
+    }
 
+    #clockdiv>div span {
+        width: 45px;
+        height: 40px;
+        font-size: 16px;
+    }
 
+    .bidfield p,
+    .bidsection__timerwrap .inftext {
+        font-size: 14px;
+    }
 
+    .bidfield input {
+        margin-right: 0;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 10px;
+        height: 40px;
+    }
 
+    .bidfield .redbtn {
+        height: 40px;
+        max-width: 100%;
+        width: 100%;
+    }
 
+    .aucprodrow {
+        padding: 20px;
+    }
 
+    .aucprodrow__prinf {
+        flex-wrap: wrap;
+    }
 
+    .aucprodrow__img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
 
+    .aucprodrow__descr {
+        padding-left: 0;
+        max-width: 100%;
+    }
 
+    .aucprodrow__descr .title {
+        margin-bottom: 5px;
+    }
+
+    .aucprodrow__price {
+        padding-left: 0;
+    }
 
 
 
@@ -2753,7 +2927,8 @@
     .mobile-menu_body .mobbtns a.redbtn,
     .mobile-menu_body .mobbtns a.transparrbtn,
     .mobile-menu_body .mobbtns .mobbtns__tel,
-    .tab-content .tab-pane p {
+    .tab-content .tab-pane p,
+    .aucprodrow .infotext {
         font-size: 14px;
     }
 
@@ -2794,6 +2969,13 @@
         font-size: 22px;
     }
 
+    .auccard__infbtns a span:first-child {
+        font-size: 12px;
+    }
+
+    #clockdiv {
+        margin-bottom: 10px;
+    }
 
 }
 
@@ -2821,5 +3003,22 @@
         height: 180px;
     }
 
+    .bidsection__timerwrap {
+        padding: 10px;
+    }
+
+    .auccard__infbtns a.trredlink {
+        margin-right: 8px;
+    }
+
+    .auccard__infbtns a span:nth-child(2) {
+        max-width: 28px;
+        background-size: 18px !important;
+    }
+
+    .auccard__infbtns a span:first-child {
+        max-width: calc(100% - 28px);
+        width: 100%;
+    }
 
 }

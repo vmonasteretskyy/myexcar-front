@@ -3751,6 +3751,376 @@ h1 {
     text-decoration: none;
 }
 
+.bidsection {
+    margin: 30px 0 0 0;
+}
+
+.bidsection .starts {
+    color: #4F4F4F;
+    line-height: 19px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+.bidsection .starts span {
+    display: inline-block;
+    margin-left: 8px;
+    color: #EC0F16;
+    font-weight: bold;
+}
+
+.bidsection__timerwrap {
+    border: 1px solid #E0E0E0;
+    padding: 47px;
+}
+
+#clockdiv {
+    max-width: 525px;
+    margin: 0 auto 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#clockdiv>div {
+    text-align: center;
+}
+
+#clockdiv>div span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 89px;
+    height: 48px;
+    background: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    position: relative;
+}
+
+#clockdiv>div:not(:last-child) span:after {
+    content: ':';
+    color: #828282;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    right: -14px;
+}
+
+#clockdiv>div .smalltext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4F4F4F;
+    margin-top: 4px;
+}
+
+.bidfield {
+    max-width: 525px;
+    margin: 0 auto 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bidfield p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000;
+}
+
+.bidfield input {
+    width: 208px;
+    height: 48px;
+    border: 1px solid #828282;
+    padding-left: 12px;
+    padding-right: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bidfield input::placeholder {
+    color: #828282;
+}
+
+.bidfield .redbtn {
+    width: 208px;
+}
+
+.bidsection__timerwrap .inftext {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #333333;
+    max-width: 525px;
+    margin: 0 auto;
+}
+
+.bidsection__timerwrap .inftext span {
+    font-weight: 500;
+}
+
+.auccard__infbtns {
+    display: flex;
+    align-items: center;
+}
+
+.auccard__infbtns a {
+    width: 185px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.auccard__infbtns a.trredlink {
+    border: 1px solid #EC0F16;
+    margin-right: 20px;
+    color: #EC0F16;
+}
+
+.auccard__infbtns a.trblacklink {
+    border: 1px solid #000000;
+    color: #000;
+}
+
+.auccard__infbtns a span:first-child {
+    width: calc(100% - 36px);
+    max-width: calc(100% - 36px);
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.auccard__infbtns a span:nth-child(2) {
+    width: 100%;
+    max-width: 36px;
+    height: 100%;
+
+}
+
+.auccard__infbtns a.trredlink span:nth-child(2) {
+    border-left: 1px solid #EC0F16;
+    background: url('../img/icons/send-ic.svg') no-repeat center / 24px;
+}
+
+.auccard__infbtns a.trblacklink span:nth-child(2) {
+    border-left: 1px solid #000;
+    background: url('../img/icons/tel-ic.svg') no-repeat center / 24px;
+}
+
+.auccard__infbtns a:hover {
+    box-shadow: 0 2px 8px #a3a3a3;
+}
+
+.aucprodrow {
+    background-color: #fff;
+    padding: 42px 36px 34px 36px;
+}
+
+.aucprodrow .infotext {
+    font-family: 'Roboto', sans-serif;
+    color: #4F4F4F;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.aucprodrow__body {
+    padding: 18px 0 18px 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.aucprodrow__body:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.aucprodrow__prinf {
+    display: flex;
+}
+
+.aucprodrow__img {
+    max-width: 155px;
+    width: 100%;
+    height: 96px;
+}
+
+.aucprodrow__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.aucprodrow__descr {
+    max-width: calc(100% - 155px);
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 6px;
+}
+
+.aucprodrow__descr .title {
+    margin-bottom: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.aucprodrow__descr .code {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #4F4F4F;
+}
+
+.aucprodrow__price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 6px;
+}
+
+.aucprodrow__price span {
+    display: inline-block;
+    margin-right: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.aucprodrow__price a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #EC0F16;
+    color: #EC0F16;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.aucprodrow__price a:hover {
+    color: #fff;
+    background: #EC0F16;
+}
+
+.ordcard-page {
+    min-height: calc(100vh - 400px);
+}
+
+.aucprodtotal {
+    background: #fff;
+    padding: 36px;
+    position: sticky;
+    top: 0;
+}
+
+.aucprodtotal .title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.aucprodtotal__body {
+    padding: 14px 0;
+    border-bottom: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+    display: flex;
+    align-items: center;
+}
+
+.aucprodtotal__body .rodcount {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #4F4F4F;
+    font-size: 15px;
+    line-height: 24px;
+    width: 100%;
+    max-width: 65%;
+    flex: 0 0 65%;
+}
+
+.aucprodtotal__body .rodprice {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: right;
+    width: 100%;
+    max-width: 35%;
+    flex: 0 0 35%;
+}
+
+.aucprodtotal__footer {
+    padding-top: 24px;
+    text-align: center;
+}
+
+.aucprodtotal__footer .redbtn {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.aucprodtotal__footer .return {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #101010;
+    text-decoration: underline;
+}
+
+.aucprodtotal__footer .return:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
