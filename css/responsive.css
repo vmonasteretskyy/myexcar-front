@@ -809,7 +809,9 @@
         width: 130px;
     }
 
-
+    .ordinpfield input {
+        height: 44px;
+    }
 
 
 
@@ -1711,7 +1713,9 @@
         flex-wrap: wrap;
     }
 
-
+    .ordcard-page {
+        min-height: calc(100vh - 246px);
+    }
 
 
 
@@ -2120,10 +2124,6 @@
         position: relative;
     }
 
-
-
-
-
     .contactsfoot__leftsect {
         padding: 50px 30px;
     }
@@ -2160,7 +2160,31 @@
         bottom: -34px;
     }
 
+    .orderform .title {
+        font-size: 21px;
+    }
 
+    .ordinpfield label {
+        font-size: 14px;
+    }
+
+    .ordinpfield {
+        margin-top: 15px;
+    }
+
+    .formbox {
+        margin-bottom: 20px;
+    }
+
+    .orderform .row {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    .orderform .col-md-6 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 
 
 
@@ -2912,6 +2936,29 @@
     .aucprodrow__price {
         padding-left: 0;
     }
+
+    .aucprodrow.orderform {
+        padding: 20px;
+    }
+
+    .orderform .title {
+        font-size: 20px;
+    }
+
+    .paymentradioblock label {
+        padding-right: 15px;
+    }
+
+    .cardsimg {
+        display: none;
+    }
+
+    .ordinpfield input {
+        height: 40px;
+    }
+
+
+
 
 
 

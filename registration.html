@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/common.css">
@@ -95,8 +95,16 @@
 
     <main class="onescreenpage">
         <form action="#" class="signform">
-            <p class="title">Log into Your Account</p>
-            <p class="subtitle">Don't have an account yet? <a href="registration.html">Registration</a></p>
+            <p class="title">Registration</p>
+            <p class="subtitle">Already a member? <a href="login.html">Sign In</a></p>
+            <div class="inpfield">
+                <label for="signform__fname">First Name</label>
+                <input type="text" id="signform__fname">
+            </div>
+            <div class="inpfield">
+                <label for="signform__sname">Last Name</label>
+                <input type="text" id="signform__sname">
+            </div>
             <div class="inpfield">
                 <label for="signform__email">Email</label>
                 <input type="email" id="signform__email">
@@ -105,14 +113,7 @@
                 <label for="signform__pass">Password</label>
                 <input type="password" id="signform__pass">
             </div>
-            <div class="checkfield">
-                <input type="checkbox" id="signform__check">
-                <label for="signform__check">Remember Me</label>
-            </div>
-            <input type="submit" value="Login" class="redbtn">
-            <div class="text-center">
-                <a href="forgot-pass.html">Forgot Password?</a>
-            </div>
+            <input type="submit" value="Registration" class="redbtn">
         </form>
     </main>
 

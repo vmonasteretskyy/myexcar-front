@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header class="headerblack">
+        <div class="myexcontainer">
+            <div class="headerblack__content">
+                <a href="index.html" class="hb__logo">
+                    <img src="img/logo-black.svg" alt="logo">
+                </a>
+                <nav class="hb__menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="index.html#abuslink">ABOUT US</a></li>
+                        <li><a href="specials.html">SPECIALS</a></li>
+                        <li class="active"><a href="catalog.html">Used Cars</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="#">APPLICATIONS</a></li>
+                        <li><a href="#">AUCTION</a></li>
+                        <li><a href="index.html#contuslink">CONTACT US</a></li>
+                    </ul>
+                </nav>
+                <div class="hb__lang">
+                    <ul>
+                        <li class="active"><a href="#">ENG</a></li>
+                        <li><a href="#">RU</a></li>
+                    </ul>
+                </div>
+                <a href="tel:9998887766" class="hb__tel">999 888 77 66</a>
+                <div class="hb__sign logined">
+                    <!-- <ul>
+                        <li><a href="login.html">Log in</a></li>
+                        <li><a href="#">Registration</a></li>
+                    </ul> -->
+                    <div class="header__cart">
+                        <a href="#"><img src="img/icons/cart-icon.svg" alt="cart"></a>
+                        <span class="header__coutcart">1</span>
+                    </div>
+                    <div class="hiuser">
+                        <p>Hi, Alexandr</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="header__contentwrapp">
+                <div class="header__leftbox">
+                    <a href="index.html" class="logo">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="searchadaptive">
+                    <button class="respsearchicon"></button>
+                </div>
+                <div class="burgericon"></div>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <div class="mobile-menu_head">
+                <span>Menu</span>
+                <button class="closemenu"></button>
+            </div>
+            <div class="mobile-menu_body">
+                <ul class="mobmenulist">
+                    <li><a href="login.html">Log in</a></li>
+                    <li><a href="#">Registration</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#abuslink">ABOUT US</a></li>
+                    <li><a href="specials.html">SPECIALS</a></li>
+                    <li><a href="catalog.html">Used Cars</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="#">APPLICATIONS</a></li>
+                    <li><a href="#">AUCTION</a></li>
+                    <li><a href="index.html#contuslink">CONTACT US</a></li>
+                </ul>
+                <div class="moblanglist">
+                    <ul>
+                        <li class="active"><a href="#">ENG</a></li>
+                        <li><a href="#">RU</a></li>
+                    </ul>
+                </div>
+                <div class="mobbtns">
+                    <a href="catalog.html" class="redbtn">Used Cars</a>
+                    <a href="#" class="transparrbtn">Sell Your Car</a>
+                    <a class="mobbtns__tel" href="tel:9998887766">999 888 77 66</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="myexcontainer">
+            <div class="breacrumbs">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="catalog.html">Auction</a></li>
+                    <li><a href="card.html">2016 Audi Q3 OFFICIAL EXCLUSIVE </a></li>
+                    <li><a href="auction-shopcard.html">Shop</a></li>
+                    <li>Order</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="greybg ordcard-page">
+            <div class="myexcontainer">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-8">
+                        <div class="aucprodrow orderform">
+                            <form action="">
+                                <div class="formbox">
+                                    <p class="title">Personal data</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="ordinpfield">
+                                                <label for="fname">First Name</label>
+                                                <input type="text" id="fname">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="ordinpfield">
+                                                <label for="lname">Last Name</label>
+                                                <input type="text" id="lname">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="ordinpfield">
+                                                <label for="ordtel">Mobile</label>
+                                                <input type="tel" class="ordtel">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="ordinpfield">
+                                                <label for="ordmail">Email</label>
+                                                <input type="email" id="ordmail">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="formbox">
+                                    <p class="title">Payment</p>
+                                    <div class="paymentradioblock">
+                                        <input type="radio" id="cardpayment" name="payment">
+                                        <label for="cardpayment">
+                                            <span class="paymentradioblock__title">Payment by card</span>
+                                            <span class="paymentradioblock__descr">Quisque tincidunt euismod lorem eget
+                                                condimentum. Nam
+                                                finibus egestas mi quis posuere. </span>
+                                            <img src="img/cards.png" alt="" class="cardsimg">
+                                        </label>
+                                    </div>
+                                    <div class="paymentradioblock">
+                                        <input type="radio" id="cashpayment" name="payment" checked>
+                                        <label for="cashpayment">
+                                            <span class="paymentradioblock__title">Payment by cash</span>
+                                            <span class="paymentradioblock__descr">Pay the full amount in cash at our
+                                                office</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4">
+                        <div class="aucprodtotal order">
+                            <p class="title">Result</p>
+                            <div class="aucprodtotal__befbody">
+                                <a href="card.html">2016 Audi Q3 OFFICIAL EXCLUSIVE </a>
+                                <p>1G1ND52F85M143229</p>
+                            </div>
+                            <div class="aucprodtotal__body">
+                                <p class="rodcount">1 product for the amount of:</p>
+                                <p class="rodprice">$ 17 950</p>
+                            </div>
+                            <div class="aucprodtotal__footer">
+                                <a href="order.html" class="redbtn">Confirm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="black-footer">
+        <div class="myexcontainer">
+            <div class="bf__flexwrapper">
+                <div class="bf__logo">
+                    <a href="index.html"><img src="img/logo-footer.svg" alt="logo"></a>
+                </div>
+                <div class="bf__navlist">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="#">APPLICATIONS</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="bf__navlist">
+                    <ul>
+                        <li><a href="specials.html">SPECIALS</a></li>
+                        <li><a href="#">AUCTION</a></li>
+                        <li><a href="catalog.html">Used cars</a></li>
+                        <li><a href="#">Sell Your Car</a></li>
+                    </ul>
+                </div>
+                <div class="bf__infolist">
+                    <p class="title">Our contact</p>
+                    <ul>
+                        <li>
+                            4523 Coney Island Ave, Brooklyn,
+                            NY 11235 United States
+                        </li>
+                        <li><a href="mailto:carbonauto@gmail.com">carbonauto@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="bf__infolist">
+                    <p class="title">Have a question?</p>
+                    <ul>
+                        <li>
+                            Сall from 9 am to 8 pm, we will help you
+                        </li>
+                        <li><a href="tel:9998887766">999 888 77 66</a></li>
+                    </ul>
+                </div>
+                <div class="bf__lang">
+                    <ul>
+                        <li class="active"><a href="#">ENG</a></li>
+                        <li><a href="#">RU</a></li>
+                    </ul>
+                    <div class="foottotop">
+                        <img src="img/icons/toparrow.svg" alt="to top">
+                    </div>
+                </div>
+            </div>
+            <div class="bf__rightreserved">
+                <p>© СARBONAUTO 2021. ALL RIGHT RESERVED</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.inputmask.min.js"></script>
+    <!-- <script src="js/jquery.formstyler.min.js"></script> -->
+    <script src="js/range-slider.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>
